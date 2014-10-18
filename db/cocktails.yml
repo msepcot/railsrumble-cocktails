@@ -576,3 +576,631 @@
   :served: Straight up
   :drinkware: Cocktail glass
   :garnish: cherry
+- :name: Black and Tan
+  :ingredients:
+  - :amount: 1 part
+    :name: Pale ale or Lager
+  - :amount: 1 part
+    :name: Stout or Porter
+  :preparation: To prepare a Black and Tan, fill a glass halfway with pale ale then add the stout. The top layer is best poured slowly over an upside-down tablespoon placed over the glass to avoid splashing and mixing the layers. A specially designed black-and-tan spoon is bent in the middle so that it can balance on the edge of the pint-glass for easier pouring.
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Honey
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Honey Brown
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black and White
+  :ingredients:
+  - :amount: 1 part
+    :name: Stout
+  - :amount: 1 part
+    :name: light colored beer
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black and Blue
+  :ingredients:
+  - :amount: 1 part
+    :name: Stout
+  - :amount: 1 part
+    :name: Blue Moon Belgian White
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black and Sam
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness stout
+  - :amount: 1 part
+    :name: Samuel Adams Boston Lager
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black and Cherry
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness stout
+  - :amount: 1 part
+    :name: Samuel Adams Cherry Wheat
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black and Orange
+  :ingredients:
+  - :amount: 1 part
+    :name: Stout
+  - :amount: 1 part
+    :name: pumpkin ale
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Sap
+  :ingredients:
+  - :amount: 1 part
+    :name: Stout
+  - :amount: 1 part
+    :name: Sapporo
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: All Irish Black and Tan
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness Stout
+  - :amount: 1 part
+    :name: Smithwick's Irish Ale
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black and Red
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Killians Irish Red Lager
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Old Dirty Englishman
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Tetley's
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Bee
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Boddington's Ale
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Sweet Black and Tan
+  :ingredients:
+  - :amount: 1 part
+    :name: Sweetheart Stout
+  - :amount: 1 part
+    :name: light ale
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Philadelphia Black and Tan
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Yuengling Lager
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black and Gold
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness Stout
+  - :amount: 1 part
+    :name: hard cider
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Christmas
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness draught
+  - :amount: 1 part
+    :name: Christmas Ale
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black and Red
+  :ingredients:
+  - :amount: 1 part
+    :name: chocolate stout
+  - :amount: 1 part
+    :name: raspberry or cherry lambic
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Jamaican Black and Tan
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Red Stripe
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Hoe
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Hoegaarden
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Thistle and Shamrock
+  :ingredients:
+  - :amount: 1 part
+    :name: Beamish
+  - :amount: 1 part
+    :name: McEwan's
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Irish American
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Budweiser
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Irish Canadian
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Molson Canadian
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Castle
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Newcastle Brown Ale
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: San Patricios
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Mexican beer
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Tire
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: New Belgium Fat Tire
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Irish Anarchist
+  :ingredients:
+  - :amount: 1 part
+    :name: Irish stout
+  - :amount: 1 part
+    :name: Irish red ale
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: The Greatness
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Great White
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Eclipse (Black Moon)
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Blue Moon
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Girl
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: St Pauli Girl
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Tetness Shot
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Tetley's
+  - :amount: 1 part
+    :name: Starbucks Coffee Liqueur
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Blacks on Blondes
+  :ingredients:
+  - :amount: 1 part
+    :name: Young's Double Chocolate Stout
+  - :amount: 1 part
+    :name: Pete's Wicked Strawberry Blonde
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Green Goblin
+  :ingredients:
+  - :amount: 1 part
+    :name: Heinken
+  - :amount: 1 part
+    :name: Hobgoblin
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Imperial Black and Tan
+  :ingredients:
+  - :amount: 1 part
+    :name: Sierra Nevada Celebration Ale
+  - :amount: 1 part
+    :name: Brooklyn Brewery Black Chocolate Stout
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Dark and Steamy
+  :ingredients:
+  - :amount: 1 part
+    :name: Half Anchor Steam Beer
+  - :amount: 1 part
+    :name: Guinness
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Magic
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Magic Hat #9
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Dirty Bush (Traditional)
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Bush Light Mixed Seasonally
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Red Velvet
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Raspberry Cider Jack
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Velvet
+  :ingredients:
+  - :amount: 1 part
+    :name: Guinness
+  - :amount: 1 part
+    :name: Champagne
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Ball
+  :ingredients:
+  - :amount: 1 part
+    :name: 3 Floyd's Gumballhead
+  - :amount: 1 part
+    :name: Guinness
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Baltika 69
+  :ingredients:
+  - :amount: 1 part
+    :name: Baltika 6 Porter
+  - :amount: 1 part
+    :name: Baltika 9 Extra Lager
+  :preparation:
+  :served: Straight up
+  :drinkware: Pint glass
+- :name: Black Russian
+  :ingredients:
+  - :amount: 5 parts (5 cl)
+    :name: Vodka
+  - :amount: 2 parts (2 cl)
+    :name: Coffe liqueur
+  :preparation: Pour the ingredients into an old fashioned glass filled with ice cubes. Stir gently.
+  :served: On the rocks; poured over ice
+  :drinkware: Old Fashioned glass
+  :garnish:
+- :name: Black Velvet
+  :ingredients:
+  - :amount: 1 part
+    :name: Beer
+  - :amount: 1 part
+    :name: Champagne
+  :preparation: fill a tall champagne flute, halfway with chilled sparkling wine and float stout beer on top of the wine
+  :served: Straight up
+  :drinkware: Champagne flute
+  :garnish:
+- :name: Bloodhound
+  :ingredients:
+  - :amount: 2 parts
+    :name: gin
+  - :amount: 1 part
+    :name: dry vermouth
+  - :amount: 1 part
+    :name: sweet vermouth
+  - :amount:
+    :name: strawberry coulis
+  :preparation: Shake alcoholic ingredients and serve over crushed ice with strawberry coulis and strawberries garnish
+  :served: with ice
+  :drinkware: cocktail, tumbler or flute
+  :garnish: 3 strawberries
+- :name: Bloody Mary
+  :ingredients:
+  - :amount: 3 parts (4.5 cl)
+    :name: Vodka
+  - :amount: 6 parts (9 cl)
+    :name: Tomato juice
+  - :amount: 1 part (1.5 cl)
+    :name: Lemon juice
+  :preparation: Add dashes of Worcestershire Sauce, Tabasco, salt and pepper into highball glass, then pour all ingredients into highball with ice cubes. Stir gently. Garnish with celery stalk and lemon wedge (optional).
+  :served: On the rocks; poured over ice
+  :drinkware: Highball glass
+  :garnish: Celery stalk or dill pickle spear
+- :name: Blow Job
+  :ingredients:
+  - :amount: 2 parts (1/2 oz, 15 ml)
+    :name: Baileys
+  - :amount: 2 parts (1/2 oz, 15 ml)
+    :name: Kahlúa
+  - :amount: 1 part (1/4 oz, 7.4 ml)
+    :name: Amaretto
+  - :amount: to top
+    :name: whipped cream
+  :preparation: Pour 1/2 oz Baileys and 1/2 oz Kahlúa in shot glass. Then slowly pour in 1/4 oz amaretto (creating a layered look) and top with whipped cream. Serve.
+  :served:
+  :drinkware: Shot glass
+  :garnish:
+- :name: Blue Hawaii
+  :ingredients:
+  - :amount: 3/4 ounce
+    :name: light rum
+  - :amount: 3/4 ounce
+    :name: vodka
+  - :amount: 1/2 ounce
+    :name: Curaçao
+  - :amount: 3 ounces
+    :name: pineapple juice
+  - :amount: 1 ounce
+    :name: sweet and sour
+  :preparation: Combine all ingredients with ice, stir or shake, then pour into a hurricane glass with the ice. For garnish score pineapple or orange slice with a knife and inert onto rim of glass; optionally use toothpick or cocktail umbrella to spear maraschino cherry through center and attach to top of fruit slice; otherwise float cherry on top of ice.
+  :served: On the rocks; poured over ice
+  :drinkware: Hurricane glass
+  :garnish: pineapple or orange quarter slice, maraschino cherry
+- :name: Blue Lagoon
+  :ingredients:
+  - :amount: 1 part
+    :name: vodka
+  - :amount: 1 part
+    :name: Blue Curaçao
+  - :amount: 4 parts
+    :name: Lemonade
+  :preparation: pour vodka and blue curacao in a shaker with ice, shake well and strain into ice filled highball glass, top with lemonade, garnish and serve.
+  :served: On the rocks; poured over ice
+  :drinkware: Highball glass
+  :garnish: lemon slice
+- :name: Blueberry Tea
+  :ingredients:
+  - :amount: 1 oz
+    :name: Grand Marnier
+  - :amount: 1 oz
+    :name: Amaretto
+  - :amount: to taste
+    :name: Orange pekoe tea
+  :preparation: Add both liqueurs to the snifter and then fill with hot tea to taste. Swaddle the brandy snifter in serviettes or a cloth to protect the hands. Some suggest a sugared rim, or adding sugar to the tea, or a lemon garnish.
+  :served:
+  :drinkware:
+  :garnish: lemon
+- :name: Bobby Burns
+  :ingredients:
+  - :amount: 1 part
+    :name: Scotch whisky
+  - :amount: 1 part
+    :name: red vermouth
+  - :amount: 3 drops
+    :name: Bénédictine
+  :preparation:
+  :served:
+  :drinkware:
+  :garnish:
+- :name: Boilermaker (US)
+  :ingredients:
+  - :amount: 1 shot
+    :name: whiskey
+  - :amount: 1 glass
+    :name: beer
+  :preparation: mix and drink
+  :served:
+  :drinkware:
+  :garnish:
+- :name: Boilermaker (UK)
+  :ingredients:
+  - :amount: 1 part (1/2 pint)
+    :name: draft mild
+  - :amount: 1 part (1/2 pint)
+    :name: bottled brown ale
+  :preparation: mix and drink
+  :served:
+  :drinkware:
+  :garnish:
+- :name: Bourbon Lancer
+  :ingredients:
+  - :amount: 9 parts
+    :name: Bourbon
+  - :amount: 16 parts
+    :name: Champagne
+  - :amount: 3 dashes
+    :name: Angostura bitters
+  :preparation: Build over ice; stir. Garnish with twist of lemon peel.
+  :served: On the rocks; poured over ice
+  :drinkware: Highball glass
+  :garnish: Lemon peel
+- :name: Brandy Alexander
+  :ingredients:
+  - :amount: 1 part (3 cl)
+    :name: Cognac
+  - :amount: 1 part (3 cl)
+    :name: Crème de cacao
+  - :amount: 1 part (3 cl)
+    :name: Fresh cream
+  :preparation: Shake and strain into a chilled cocktail glass. Sprinkle with fresh ground nutmeg.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Brandy Sour
+  :ingredients:
+  - :amount: 2 parts (5 cl)
+    :name: Cyprus brandy
+  - :amount: 1 part (2.5 cl)
+    :name: Lemon squash
+  - :amount: 2-4 drops
+    :name: bitters
+  - :amount: top
+    :name: carbonated water
+  :preparation: Stir into glass over ice, garnish and serve.
+  :served: on the rocks; poured over ice
+  :drinkware: Highball glass
+  :garnish:
+- :name: Brass Monkey
+  :ingredients:
+  - :amount: 1 part
+    :name: dark rum
+  - :amount: 1 part
+    :name: vodka
+  - :amount: 1 part
+    :name: Orange juice
+  :preparation: Stir together and serve over ice.
+  :served: On the rocks; poured over ice
+  :drinkware: Highball glass
+  :garnish:
+- :name: Bronx
+  :ingredients:
+  - :amount: 6 parts (3 cl)
+    :name: Gin
+  - :amount: 3 parts (1.5 cl)
+    :name: sweet red vermouth
+  - :amount: 2 parts (1 cl)
+    :name: dry vermouth
+  - :amount: 3 parts (1.5 cl)
+    :name: Orange juice
+  :preparation: Pour into cocktail shaker all ingredients with ice cubes, shake well. Strain in chilled cocktail glass.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: orange twist
+- :name: Brooklyn
+  :ingredients:
+  - :amount: 2 oz
+    :name: Canadian whisky
+  - :amount: 1 oz
+    :name: dry vermouth
+  - :amount: 1/4 oz
+    :name: Maraschino liqueur
+  - :amount: 1/4 oz
+    :name: Angostura bitters
+  - :amount: 1
+    :name: Maraschino cherry
+  :preparation: Stirred over ice, strained into a chilled glass, garnished, and served straight up.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: cherry
+- :name: Buck's Fizz
+  :ingredients:
+  - :amount: 2 parts (10 cl)
+    :name: Orange juice
+  - :amount: 1 part (5 cl)
+    :name: Champagne
+  :preparation: Pour the orange juice into glass and top up champagne. Stir gently, garnish and serve.
+  :served: Straight up
+  :drinkware: Champagne flute
+  :garnish: orange twist
+- :name: Bumbo
+  :ingredients:
+  - :amount: 2 parts (2 oz)
+    :name: rum
+  - :amount: 1 part (1 oz)
+    :name: water
+  - :amount: 2
+    :name: sugar cubes
+  - :amount: 1/4 tsp
+    :name: cinnamon
+  - :amount: 1/4 teaspoon
+    :name: nutmeg
+  :preparation: Mix and garnish.
+  :served: Straight up
+  :drinkware: Old Fashioned glass
+  :garnish: Nutmeg
+- :name: Bushwacker
+  :ingredients:
+  - :amount: 1 part (1 oz)
+    :name: Dark Rum
+  - :amount: 1 part (1 oz)
+    :name: Kahlúa
+  - :amount: 1 part (1 oz)
+    :name: Dark Crème de Cacao
+  - :amount: 2 parts (2 oz)
+    :name: Cream of Coconut
+  - :amount: 2 parts (2 oz)
+    :name: milk
+  - :amount: 1 cup
+    :name: ice
+  :preparation: Blend all the ingredients together in a blender, including the ice, and then strain into a hurrican glass. Place cherry on top of the drink as a garnish and serve. Whipped cream can also be added as a garnish to the top of the drink before the cherry.
+  :served: Straight up
+  :drinkware: Hurricane Glass
+  :garnish: Maraschino Cherry
+- :name: Slippery Nipple
+  :ingredients:
+  - :amount: 1 part
+    :name: Sambuca
+  - :amount: 1 part
+    :name: Baileys Irish Cream
+  :preparation: Pour the Sambuca into a shot glass, then pour the Baileys on top so that the two liquids do not mix.
+  :served: Neat; undiluted and without ice
+  :drinkware: shot glass
+  :garnish: cherry
