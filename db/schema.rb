@@ -4,14 +4,14 @@
 # incrementally modify your database, and then regenerate this schema definition.
 #
 # Note that this schema.rb definition is the authoritative source for your
-# database schema. If you need to index the application database on another
+# database schema. If you need to create the application database on another
 # system, you should be using db:schema:load, not running all the migrations
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141018005704) do
+ActiveRecord::Schema.define(version: 20141018200243) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,18 @@ ActiveRecord::Schema.define(version: 20141018005704) do
     t.string   "name"
     t.string   "image"
     t.text     "instructions"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "drinkware_id"
+    t.string   "served"
+    t.string   "garnish"
+  end
+
+  add_index "cocktails", ["drinkware_id"], name: "index_cocktails_on_drinkware_id", using: :btree
+
+  create_table "drinkwares", force: true do |t|
+    t.string   "name"
+    t.string   "image"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
