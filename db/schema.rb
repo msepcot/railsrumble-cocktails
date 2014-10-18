@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141018200243) do
+ActiveRecord::Schema.define(version: 20141018215040) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20141018200243) do
     t.integer  "drinkware_id"
     t.string   "served"
     t.string   "garnish"
+    t.text     "ingredient_id_array"
   end
 
   add_index "cocktails", ["drinkware_id"], name: "index_cocktails_on_drinkware_id", using: :btree
