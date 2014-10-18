@@ -12,7 +12,7 @@ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")
 //## Gray and brand colors for use across Bootstrap.
 
 $gray-darker:            lighten(#000, 13.5%) !default; // #222
-$gray-dark:              lighten(#000, 20%) !default;   // #333
+$gray-dark:              lighten(#000, 20%)   !default; // #333
 $gray:                   lighten(#000, 33.5%) !default; // #555
 $gray-light:             lighten(#000, 46.7%) !default; // #777
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
@@ -23,6 +23,11 @@ $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
+/* Color guide: http://www.colourlovers.com/web/trends/websites/7818/Brooklyn_Beta */
+$tan:     #ded4b9;
+$slate:   #46433a;
+$redish:  #ce534d;
+$teal:    #64b6b1;
 
 //== Scaffolding
 //
@@ -59,6 +64,13 @@ $font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-color-h1:           $slate  !default;
+$font-color-h2:           $redish !default;
+$font-color-h3:           $teal   !default;
+$font-color-h4:           inherit !default;
+$font-color-h5:           inherit !default;
+$font-color-h6:           inherit !default;
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.428571429 !default; // 20/14
