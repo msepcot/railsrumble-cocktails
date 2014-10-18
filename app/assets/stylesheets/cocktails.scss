@@ -17,9 +17,30 @@ footer {
   p, a {
     color: white;
   }
+
+  a:hover {
+    color: $gray-lighter;
+  }
 }
 
 .title a {
   font-variant: small-caps;
   text-decoration: none;
+}
+
+.button {
+  background: #d12d1b;
+  color: white;
+  display: inline-block;
+  font-size: 0.75em;
+  letter-spacing: 2px;
+  line-height: 2em;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+    text-decoration: underline;
+  }
 }
