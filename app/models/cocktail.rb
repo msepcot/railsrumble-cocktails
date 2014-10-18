@@ -13,6 +13,24 @@ class Cocktail < ActiveRecord::Base
 
   before_save :set_ingredient_id_array
 
+  class << self
+    def requiring(ingredient_ids)
+      return nil if ingredient_ids.blank?
+      filter_cocktails(ingredient_ids)
+    end
+
+  private
+
+    def filter_cocktails(ingredient_ids)
+      filtered = []
+      Cocktail.all.each do |candidate|
+        is_a_subset = (candidate.ingredient_id_array & ingredient_ids).size.eql?(candidate.ingredient_id_array.size)
+        filtered << candidate if is_a_subset
+      end
+      filtered
+    end
+  end
+
 private
 
   def set_ingredient_id_array
