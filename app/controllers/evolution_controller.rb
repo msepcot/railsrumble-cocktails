@@ -1,0 +1,2 @@
+class EvolutionController < ApplicationController
+end
