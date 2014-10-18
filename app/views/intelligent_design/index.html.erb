@@ -2,14 +2,12 @@
 
 <h3>Your Ingredients</h3>
 
-<table>
-  <% @ingredients.each do |ing_array| %>
-      <tr>
-        <% ing_array.each do |ing| %>
-            <td style="padding:5px"><input type="checkbox" value="<%= ing.id %>"/> <%= ing.name.titleize %></td>
-        <% end %>
-      </tr>
-  <% end %>
-</table>
+<% @ingredients.each do |ing_array| %>
+    <div class="row">
+      <% ing_array.each do |ing| %>
+          <div class="col-xs-6 col-sm-4"><input type="checkbox" value="<%= ing.id %>"/> <%= ing.name.titleize %></div>
+      <% end %>
+    </div>
+<% end %>
 
 <a class="button text-uppercase" href="#">Let There Be Drinks!</a>
