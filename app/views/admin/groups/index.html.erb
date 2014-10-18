@@ -1,0 +1,11 @@
+<h1>Groups</h1>
+
+<p><%= link_to 'Create Group', new_admin_group_path %></p>
+
+<ul>
+<% groups.each do |group| %>
+  <li><%= render group %></li>
+<% end %>
+</ul>
+
+<%= paginate groups %>

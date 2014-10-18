@@ -41,3 +41,5 @@ gem 'byebug', group: [:development, :test]
 
 # Suggestion to use unicorn for Heroku in production
 gem 'unicorn'
+
+gem 'kaminari'
