@@ -1,0 +1,17 @@
+<h2><%= cocktail.name %></h2>
+
+<h3>Ingredients</h3>
+  <ul>
+    <% cocktail.recipes.each do |recipe| %>
+      <li><%= recipe.ingredient.name %>, <%= recipe.measurement %></li>
+    <% end %>
+  </ul>
+
+<h3>Barware</h3>
+<p>Serve in a <%= cocktail.drinkware.name %></p>
+
+<h3>Garnish</h3>
+<p><%= cocktail.garnish %></p>
+
+<h3>Instructions</h3>
+<p><%= cocktail.instructions %></p>
