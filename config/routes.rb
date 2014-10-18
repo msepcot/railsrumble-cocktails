@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   resources :cocktails
 
   get 'godmode'   => 'intelligent_design#index'
+  post 'godmode'  => 'intelligent_design#concoct'
+
   get 'evolution' => 'evolution#index'
 
   # Example of regular route:
