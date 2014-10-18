@@ -17,3 +17,9 @@
 
 # No .DS_Store
 .DS_Store
+
+# public assets
+public/assets
+
+# Ignore RubyMine stuff
+.idea
