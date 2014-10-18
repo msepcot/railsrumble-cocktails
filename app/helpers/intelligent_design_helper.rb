@@ -1,0 +1,2 @@
+module IntelligentDesignHelper
+end

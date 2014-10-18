@@ -3,5 +3,5 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+#   cities = City.index([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+#   Mayor.index(name: 'Emanuel', city: cities.first)
