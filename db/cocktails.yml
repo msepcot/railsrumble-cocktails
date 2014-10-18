@@ -1,0 +1,578 @@
+---
+- :name: Bananarita
+  :ingredients:
+  - :amount: 6 oz
+    :name: Ice
+  - :amount: as needed
+    :name: Tequila
+  - :amount: 1.5-2 oz
+    :name: 99 Bananas liquor
+  - :amount: 3-4 oz
+    :name: Margarita mix
+  :preparation: Fill the glass halfway (6oz.) with ice. Pour the tequila to the rim of the ice. Add the 99 Bananas liquor as well as the margarita mix; finish by adding the garnishes.
+  :served: On the rocks; poured over ice
+  :drinkware: Highball glass
+  :garnish: salt rimmed glass, lime slice
+- :name: Classic Backdraft
+  :ingredients:
+  - :amount: 1 part
+    :name: Grand Marnier
+  - :amount: 1 part
+    :name: Drambuie
+  :preparation: A classic Backdraft is prepared by pouring equal amounts of Drambuie and Grand Marnier into a snifter. The mixture is set alight, and after a few seconds, extinguished by having the imbiber seal the top of the glass with their hand, although often a coaster or saucer is used instead. Once the flame is out, a straw is inserted, keeping as much of the seal intact as possible to contain the vapors. Both the liquid and the vapors are then consumed through the straw.
+  :served: Straight up; without ice; may be flaming
+  :drinkware: Shot glass
+- :name: Backdraft
+  :ingredients:
+  - :amount: 1 part
+    :name: Grand Marnier
+  - :amount: 1 part
+    :name: Bacardi 151 rum
+  :preparation: Pour equal amounts of Bacardi 151 and Grand Marnier into a snifter. The mixture is set alight, and after a few seconds, extinguished by having the imbiber seal the top of the glass with their hand, although often a coaster or saucer is used instead. Once the flame is out, a straw is inserted, keeping as much of the seal intact as possible to contain the vapors. Both the liquid and the vapors are then consumed through the straw.
+  :served: Straight up; without ice; may be flaming
+  :drinkware: Shot glass
+- :name: Bacardi cocktail
+  :ingredients:
+  - :amount: 9 parts (4.5 cl)
+    :name: Bacardi white rum
+  - :amount: 4 parts (2 cl)
+    :name: lemon juice
+  - :amount: 1 part (0.5 cl)
+    :name: grenadine syrup
+  :preparation: Shake together in a mixer with ice. Strain into glass and serve
+  :served: straight up
+  :drinkware: Cocktail glass
+  :garnish: lime
+- :name: Bacardi cocktail
+  :ingredients:
+  - :amount: 9 parts (4.5 cl)
+    :name: Bacardi white rum
+  - :amount: 4 parts (2 cl)
+    :name: lime juice
+  - :amount: 1 part (0.5 cl)
+    :name: grenadine syrup
+  :preparation: Shake together in a mixer with ice. Strain into glass and serve
+  :served: straight up
+  :drinkware: Cocktail glass
+  :garnish: lime
+- :name: Baby Guinness
+  :ingredients:
+  - :amount: 3 parts (3/4 shot)
+    :name: Coffee liqueur
+  - :amount: 1 part (1/4 shot)
+    :name: Irish cream
+  :preparation: Float Irish cream on top of coffee liqueur
+  :served:
+  :drinkware: Shot glass
+  :garnish:
+- :name: Baby Guinness
+  :ingredients:
+  - :amount: 3 parts (3/4 shot)
+    :name: Sambuca
+  - :amount: 1 part (1/4 shot)
+    :name: Irish cream
+  :preparation: Float Irish cream on top of black Sambuca
+  :served:
+  :drinkware: Shot glass
+  :garnish:
+- :name: B-52
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: Irish Cream
+  - :amount: 1 part (2 cl)
+    :name: Orange Cognac
+  :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: B-52 (alternate)
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: Irish Cream
+  - :amount: 1 part (2 cl)
+    :name: Triple Sec
+  :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: B-51
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: Irish Cream
+  - :amount: 1 part (2 cl)
+    :name: Frangelico hazelnut liqueur
+  :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: B-52 with Bomb Bay Doors
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: Irish Cream
+  - :amount: 1 part (2 cl)
+    :name: Triple Sec
+  - :amount: 1 part (2 cl)
+    :name: gin
+  :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: B-52 in the Desert
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: Tequila
+  - :amount: 1 part (2 cl)
+    :name: Triple Sec
+  :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: B-52 with a Full Payload
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: Irish Cream
+  - :amount: 1 part (2 cl)
+    :name: Triple Sec
+  - :amount: 1 part (2 cl)
+    :name: Frangelico hazelnut liqueur
+  - :amount: 1 part (2 cl)
+    :name: Bacardi 151 rum
+  :preparation: Layer ingredients into a shot glass. Bacardi 151 rum on top, lit on fire.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: B-53
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: Sambuca
+  - :amount: 1 part (2 cl)
+    :name: Triple Sec
+  :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: B-54
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: Irish Cream
+  - :amount: 1 part (2 cl)
+    :name: Amaretto almond liqueur
+  :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: B-55 (B-52 Gunship)
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: Irish Cream
+  - :amount: 1 part (2 cl)
+    :name: absinthe
+  :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: B-57
+  :ingredients:
+  - :amount: 1 part (2 cl)
+    :name: coffee liqueur
+  - :amount: 1 part (2 cl)
+    :name: peppermint schnapps
+  - :amount: 1 part (2 cl)
+    :name: Orange Cognac
+  :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
+  :served: Neat; undiluted and without ice
+  :drinkware: Shot glass
+  :garnish: Stirrer
+- :name: Aviation
+  :ingredients:
+  - :amount: 3 parts (4.5 cl)
+    :name: gin
+  - :amount: 1 part (1.5 cl)
+    :name: lemon juice
+  - :amount: 1 part (1.5 cl)
+    :name: maraschino liqueur
+  :preparation: Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass. Garnish with a cherry.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: cherry
+- :name: Blue Moon
+  :ingredients:
+  - :amount: 3 parts (4.5 cl)
+    :name: gin
+  - :amount: 1 part (1.5 cl)
+    :name: lemon juice
+  - :amount: 1 part (1.5 cl)
+    :name: crème de violette
+  :preparation: Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.
+  :served: Straight up
+  :drinkware: Cocktail glass
+- :name: Blue Moon
+  :ingredients:
+  - :amount: 3 parts (4.5 cl)
+    :name: gin
+  - :amount: 1 part (1.5 cl)
+    :name: lemon juice
+  - :amount: 1 part (1.5 cl)
+    :name: Creme Yvette
+  :preparation: Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.
+  :served: Straight up
+  :drinkware: Cocktail glass
+- :name: Moonlight
+  :ingredients:
+  - :amount: 3 parts (1 1/2 oz)
+    :name: gin
+  - :amount: 1 part (1/2 oz)
+    :name: Cointreau
+  - :amount: 1 part (1/2 oz)
+    :name: creme de violette
+  - :amount: 1 part (1/2 oz)
+    :name: lime juice
+  :preparation: Add all ingredients into cocktail shaker filled with ice. Shake well and strain into chilled Champagne flute.
+  :served: Straight up
+  :drinkware: Champagne flute
+- :name: Appletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: Vodka
+  - :amount: 1 part (15 ml)
+    :name: Apple schnapps
+  - :amount: 1 part (15 ml)
+    :name: Cointreau
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Appletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: Vodka
+  - :amount: 1 part (15 ml)
+    :name: Calvados (brandy)
+  - :amount: 1 part (15 ml)
+    :name: Cointreau
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Appletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: Vodka
+  - :amount: 2 parts (30 ml)
+    :name: Apple juice
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Appletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: Vodka
+  - :amount: 2 parts (30 ml)
+    :name: Apple cider
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Appletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: Vodka
+  - :amount: 2 parts (30 ml)
+    :name: Apple pucker
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Rumpletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: light rum
+  - :amount: 1 part (15 ml)
+    :name: Apple schnapps
+  - :amount: 1 part (15 ml)
+    :name: Cointreau
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Rumpletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: light rum
+  - :amount: 1 part (15 ml)
+    :name: Calvados (brandy)
+  - :amount: 1 part (15 ml)
+    :name: Cointreau
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Rumpletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: light rum
+  - :amount: 2 parts (30 ml)
+    :name: Apple juice
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Rumpletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: light rum
+  - :amount: 2 parts (30 ml)
+    :name: Apple cider
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Rumpletini
+  :ingredients:
+  - :amount: 3 parts (40 ml)
+    :name: light rum
+  - :amount: 2 parts (30 ml)
+    :name: Apple pucker
+  :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: Apple slice; Cherry
+- :name: Americano
+  :ingredients:
+  - :amount: 1 part (3 cl)
+    :name: Campari
+  - :amount: 1 part (3 cl)
+    :name: red vermouth
+  - :amount: splash
+    :name: soda water
+  :preparation: Pour the Campari and vermouth over ice into glass, add a splash of soda water and garnish with half orange slice.
+  :served: On the rocks; poured over ice
+  :drinkware: Old Fashioned glass
+  :garnish: 1/2 orange slice
+- :name: Amber Moon
+  :ingredients:
+  - :amount: 3 oz (89 ml)
+    :name: whiskey
+  - :amount: 1
+    :name: raw egg
+  - :amount: taste
+    :name: Tabasco sauce
+  :preparation: Crack an egg into a tall glass, leaving the yolk unbroken. Pour in whiskey. Add Tabasco to taste, or serve on the side.
+  :served: Straight up
+  :drinkware: Highball glass
+- :name: Vodka Amber Moon
+  :ingredients:
+  - :amount: 3 oz (89 ml)
+    :name: vodka
+  - :amount: 1
+    :name: raw egg
+  - :amount: taste
+    :name: Tabasco sauce
+  :preparation: Crack an egg into a tall glass, leaving the yolk unbroken. Pour in vodka. Add Tabasco to taste, or serve on the side.
+  :served: Straight up
+  :drinkware: Highball glass
+- :name: French Connection
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: Amaretto liqueur
+  - :amount: 1 part (3.5 cl)
+    :name: Cognac
+  - :amount:
+    :name: Ice
+  :preparation: Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.
+  :served: On the rocks; poured over ice
+  :drinkware: Old Fashioned glass
+- :name: Godfather
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: liqueur
+  - :amount: 1 part (3.5 cl)
+    :name: Scotch
+  - :amount:
+    :name: Ice
+  :preparation: Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.
+  :served: On the rocks; poured over ice
+  :drinkware: Old Fashioned glass
+- :name: Godmother
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: Amaretto liqueur
+  - :amount: 1 part (3.5 cl)
+    :name: Vodka
+  - :amount:
+    :name: Ice
+  :preparation:
+- :name: Godchild
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: Amaretto liqueur
+  - :amount: 1 part (3.5 cl)
+    :name: Cream
+  - :amount:
+    :name: Ice
+  :preparation:
+- :name: Toasted Almond
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: Amaretto liqueur
+  - :amount: 1 part (3.5 cl)
+    :name: Kahlúa
+  - :amount: 1 part (3.5 cl)
+    :name: Cream
+  - :amount:
+    :name: Ice
+  :preparation:
+- :name: Bocce Ball
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: Amaretto liqueur
+  - :amount: 1 part (3.5 cl)
+    :name: Orange juice
+  - :amount: 1 part (3.5 cl)
+    :name: Club soda
+  - :amount:
+    :name: Ice
+  :preparation:
+- :name: Cuban Breeze
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: Amaretto liqueur
+  - :amount: 1 part (3.5 cl)
+    :name: Vodka
+  - :amount: 1 part (3.5 cl)
+    :name: Pineapple juice
+  - :amount:
+    :name: Ice
+  :preparation:
+- :name: Lounge Lizard
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: Amaretto liqueur
+  - :amount: 1 part (3.5 cl)
+    :name: Dark Run
+  - :amount: 1 part (3.5 cl)
+    :name: Cola
+  - :amount:
+    :name: Ice
+  :preparation:
+- :name: Amaretto Sour
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: Amaretto liqueur
+  - :amount: 1 part (3.5 cl)
+    :name: Sweet and Sour Mix
+  :preparation:
+- :name: Amaretto Sour variant
+  :ingredients:
+  - :amount: 1 part (3.5 cl)
+    :name: Amaretto liqueur
+  - :amount: 1
+    :name: egg white
+  - :amount: 1 part (3.5 cl)
+    :name: cask strength bourbon
+  - :amount: 1 part (3.5 cl)
+    :name: lemon juice
+  - :amount: 1 part (3.5 cl)
+    :name: simple syrup
+  - :amount:
+    :name: Ice
+  :preparation: Shake and pour over ice
+- :name: Alabama Slammer
+  :ingredients:
+  - :amount: 1 part (3/4 oz)
+    :name: Amaretto
+  - :amount: 1 part (3/4 oz)
+    :name: Southern Comfort
+  - :amount: 1 part (3/4 oz)
+    :name: Sloe Gin
+  - :amount: fill glass
+    :name: orange juice
+  :preparation:
+  :served: On the rocks; poured over ice
+  :drinkware: Collins glass
+- :name: Agua de Valencia
+  :ingredients:
+  - :amount: 20 cl
+    :name: Orange juice
+  - :amount: 5 cl
+    :name: Gin
+  - :amount: 5 cl
+    :name: Vodka
+  - :amount: 70 cl
+    :name: Cava
+  - :amount: pinch
+    :name: Sugar
+  :preparation: Squeeze a glass of orange juice into a pitcher. Add a bottle of semi-dry cava. Add a glass of vodka and gin. Add sugar according to your taste. Place in the refrigerator.
+- :name: Agent Orange
+  :ingredients:
+  - :amount: 1 part (5 cl)
+    :name: vodka
+  - :amount: 3 parts (15 cl)
+    :name: carrot juice
+  :preparation: Mix in an old fashioned glass with ice and serve.
+  :served: On the rocks; poured over ice
+  :drinkware: Old Fashioned glass
+- :name: 20th Century
+  :ingredients:
+  - :amount: 1 1/2 ounces (1/3 gill, 4.5 cl)
+    :name: gin
+  - :amount: 3/4 ounce (1/6 gill, 2 cl)
+    :name: Kina Lillet
+  - :amount: 3/4 ounce (1/6 gill, 2 cl)
+    :name: light creme de cacao
+  - :amount: 3/4 ounce (1/6 gill, 2 cl)
+    :name: fresh lemon juice
+  :preparation: Shake in an iced cocktail shaker, and strain into a cocktail glass. Garnish with a lemon twist.
+- :name: Seven and Seven
+  :ingredients:
+  - :amount: 1 shot
+    :name: Seagram's Seven Crown whiskey
+  - :amount: 6 oz
+    :name: 7 Up
+  - :amount:
+    :name: Ice
+  :preparation: Pour whiskey into Collins glass filled with ice. Fill to desired level with 7 Up. Stir lightly.
+  :served: On the rocks; poured over ice
+  :drinkware: Collins glass
+- :name: Bellini
+  :ingredients:
+  - :amount: 2 parts (10 cl)
+    :name: dry sparkling wine (Prosecco)
+  - :amount: 1 part (5 cl)
+    :name: fresh peach purée
+  :preparation: Pour peach puree into chilled flute, add gently sparkling wine. Stir gently.
+  :served: Straight up
+  :drinkware: Champagne flute
+- :name: Bijou
+  :ingredients:
+  - :amount: 1 part
+    :name: gin
+  - :amount: 1 part
+    :name: green Chartreuse
+  - :amount: 1 part
+    :name: vermouth
+  - :amount: dash
+    :name: orange bitters
+  :preparation: Stir in mixing glass with ice and strain
+  :served: Straight up
+  :drinkware: Cocktail glass
+  :garnish: cherry
