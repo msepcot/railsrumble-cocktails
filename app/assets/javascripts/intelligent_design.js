@@ -11,6 +11,10 @@ IntelligentDesign.prototype.concoct = function () {
   });
 
   success = function (data) {
+    if (data.drinks.length === 0) {
+      error(undefined, undefined, { message: 'There were no drinks found for your selected ingredients.' });
+    }
+
     this.showDrinks(data);
     $('.alert').addClass('hidden');
   }.bind(this);
