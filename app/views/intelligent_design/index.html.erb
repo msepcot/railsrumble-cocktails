@@ -7,12 +7,12 @@
     <p></p>
   </div>
 
-<% groups = @ingredients.group_by(&:group_id) %>
+<% groups = @ingredients.group_by(&:group).sort_by { |group, array| group.nil? ? 'Ungrouped' : group.name.titleize } %>
 
   <div class="clearfix">
-<% groups.each do |group_id, array| %>
+<% groups.each do |group, array| %>
     <div class="group col-xs-6 col-md-4">
-      <h4><%= group_id.nil? ? 'Ungrouped' : Group.find(group_id).name.titleize %></h4>
+      <h4><%= group.nil? ? 'Ungrouped' : group.name.titleize %></h4>
       <div class="ingredients">
       <% array.compact.each do |ing| %>
         <input type="checkbox" value="<%= ing.id %>" id="ingredient_<%= ing.id %>" <%= 'checked' if saved_ingredient? ing.id %> />

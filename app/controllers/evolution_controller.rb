@@ -7,10 +7,10 @@ class EvolutionController < ApplicationController
   def evolve
     if(params[:base])
       ing = Ingredient.where(:group_id => params[:base]).to_a.sample
-      render json: Cocktail.evolve([ing.id])
+      render json: { drinks: Cocktail.evolve([ing.id]) }
     else
       ings = Cocktail.find(params[:cocktail]).ingredients.map { |i| i.id }
-      render json: Cocktail.evolve(ings, params[:cocktail])
+      render json: { drinks: Cocktail.evolve(ings, params[:cocktail]) }
     end
   end
 end
