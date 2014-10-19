@@ -47,7 +47,7 @@ class Importer
     def find_or_create_ingredient(name, group_name)
       ingredient = Ingredient.where("LOWER(name)=LOWER(?)", name).first
       return ingredient unless ingredient.nil?
-      Ingredient.create(name: name, group: find_or_create_group(group_name))
+      Ingredient.create(name: name.titleize, group: find_or_create_group(group_name))
     end
 
     def find_or_create_group(name)
