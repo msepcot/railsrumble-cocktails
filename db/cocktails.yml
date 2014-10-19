@@ -2056,3 +2056,15 @@
   :served: on the rocks
   :drinkware: long drink glass
   :garnish: variety of fruits
+- :name: Daiquirí
+  :ingredients:
+  - :amount: 9 parts (4.5 cl)
+    :name: White Rum
+  - :amount: 5 parts (2.5 cl)
+    :name: Lime Juice
+  - :amount: 3 parts (1.5 cl)
+    :name: Simple Syrup
+  :preparation: Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish: lime slice
