@@ -1,4 +1,5 @@
 <%= form_for [:admin, group], html: { multipart: true } do |f| %>
   <%= f.label :name %> <%= f.text_field :name %><br />
+  <%= f.check_box :evolvable %> <%= f.label :evolvable %><br />
   <%= f.submit %>
 <% end %>
