@@ -1,0 +1,11 @@
+<h1>Ingredients</h1>
+
+<p><%= link_to 'Create Ingredient', new_admin_ingredient_path %></p>
+
+<ul>
+<% ingredients.each do |ingredient| %>
+  <li><%= render ingredient %></li>
+<% end %>
+</ul>
+
+<%= paginate ingredients %>
