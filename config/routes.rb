@@ -10,7 +10,8 @@ Rails.application.routes.draw do
   get 'godmode'   => 'intelligent_design#index'
   post 'godmode'  => 'intelligent_design#concoct'
 
-  get 'evolution' => 'evolution#index'
+  get 'darwin' => 'evolution#index'
+  post 'darwin' => 'evolution#evolve'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

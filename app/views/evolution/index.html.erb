@@ -1,3 +1,14 @@
 <h2>Evolution</h2>
 
-<a class="button text-uppercase" href="#">Natural Selection!</a>
+<h3>Select Your Base</h3>
+
+<div class="row">
+  <% @base_groups.each do |group| %>
+      <div class="col-xs-6 col-sm-4">
+        <input type="checkbox" value="<%= group.id %>" id="group_<%= group.id %>" />
+        <%= label_tag("group_#{group.id}", group.name.titleize) %>
+      </div>
+  <% end %>
+</div>
+
+<a id="natural-selection" class="button text-uppercase" href="#">Natural Selection!</a>

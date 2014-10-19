@@ -19,9 +19,9 @@ class Cocktail < ActiveRecord::Base
       filter_cocktails(ingredient_ids)
     end
 
-    def evolve(ingredient_ids)
+    def evolve(ingredient_ids, from_cocktail_id = nil)
       return nil if ingredient_ids.blank?
-      evolve_cocktails(ingredient_ids)
+      evolve_cocktails(ingredient_ids, from_cocktail_id)
     end
 
   private
@@ -35,13 +35,13 @@ class Cocktail < ActiveRecord::Base
       filtered
     end
 
-    def evolve_cocktails(ingredient_ids)
+    def evolve_cocktails(ingredient_ids, from_cocktail_id)
       evolved = []
       Cocktail.all.each do |candidate|
         in_common = (candidate.ingredient_id_array & ingredient_ids).size
         passes_min_in_common = in_common >= MIN_EVOLUTION_INGREDIENTS_IN_COMMON
-        passes_max_additional = (ingredient_ids.size - candidate.ingredient_id_array.size) <= MAX_ADDITIONAL_INGREDIENTS
-        if passes_min_in_common && passes_max_additional
+        passes_max_additional = (candidate.ingredient_id_array.size - in_common ) <= MAX_ADDITIONAL_INGREDIENTS
+        if passes_min_in_common && passes_max_additional && candidate.id != from_cocktail_id
           evolved << { cocktail: candidate, in_common: in_common, num_ingredients: candidate.ingredient_id_array.size }
         end
       end
@@ -57,8 +57,8 @@ class Cocktail < ActiveRecord::Base
     end
 
     def get_max_in_common(evolved_cocktails)
-      sorted = evolved_cocktails.sort_by { |hsh| hsh[:in_common] }
-      [sorted.first[:cocktail]]
+      sorted = evolved_cocktails.sort_by { |hsh| hsh[:in_common] }.reverse
+      [sorted.first[:cocktail]].compact
     end
 
     def get_max_additional(evolved_cocktails, selected)
