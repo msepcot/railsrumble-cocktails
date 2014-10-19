@@ -2,13 +2,17 @@
 
 <h3>Select Your Base</h3>
 
-<div class="row">
-  <% @base_groups.each do |group| %>
-      <div class="col-xs-6 col-sm-4">
-        <input type="checkbox" value="<%= group.id %>" id="group_<%= group.id %>" />
-        <%= label_tag("group_#{group.id}", group.name.titleize) %>
-      </div>
-  <% end %>
+<div class="alert alert-warning hidden">
+  <h4></h4>
+  <p></p>
+</div>
+
+<div id="drinks" class="clearfix">
+<% @base_groups.each do |group| %>
+  <div class="col-xs-2">
+    <a class="evolution" href="#" value="<%= group.id %>" id="group_<%= group.id %>"><%= group.name.titleize %></a>
+  </div>
+<% end %>
 </div>
 
 <a id="natural-selection" class="button text-uppercase" href="#">Natural Selection!</a>

@@ -1,0 +1,27 @@
+<div class="clearfix">
+<% drinks.each do |drink| %>
+
+  <div class="col-xs-6 col-md-4 evolved-drink" value="<%= drink[:id] %>">
+    <!-- NOTE: Drink names apepar to already all be titleized. However putting this here to ensure just-in-case. -->
+    <h4 class="drink"><%= drink[:name].titleize %></h4>
+
+    <div class="drink-info">
+      <% if drink[:image] %>
+      <img src="<%= drink[:image] %>" alt="<%= drink[:name] %>">
+      <% end %>
+
+      <h5>Ingredients</h5>
+      <ul>
+        <% drink.recipes.each do |recipe| %>
+          <li><%= recipe.ingredient.name %></li>
+        <% end %>
+      </ul>
+
+      <h6>Full recipe</h6>
+    </div>
+  </div>
+
+<% end %>
+</div>
+
+<!-- <a id="again" class="button text-uppercase" href="#">I Want To Do It Again! Start Over!</a> -->
