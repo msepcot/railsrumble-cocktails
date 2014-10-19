@@ -32,6 +32,7 @@ IntelligentDesign.prototype.showDrinks = function (drinks) {
       scrollTop: 0
     }, function () {
       $('input[type="checkbox"]').attr('checked', false);
+      $('#drinks').empty();
     });
   });
 };

@@ -87,8 +87,6 @@ class Cocktail < ActiveRecord::Base
 
   end
 
-private
-
   def set_ingredient_id_array
     current_ingredient_array = []
     ingredients.each do |ingredient|
