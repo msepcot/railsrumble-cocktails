@@ -56,7 +56,7 @@ Rails.application.routes.draw do
 
   # Example resource route within a namespace:
   namespace :admin do
-    resources :cocktails
+    resources :cocktails, only: [:new, :create]
     resources :ingredients
     resources :groups, path: :categories
   end

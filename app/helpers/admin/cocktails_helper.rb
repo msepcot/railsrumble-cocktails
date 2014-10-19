@@ -1,0 +1,2 @@
+module Admin::CocktailsHelper
+end

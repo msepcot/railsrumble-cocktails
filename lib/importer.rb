@@ -1,9 +1,16 @@
 class Importer
 
   class << self
-    def import(filepath)
-      to_import = YAML.load_file(filepath)
-      to_import.each do |importing|
+    def load_file(filepath)
+      import(YAML.load_file(filepath))
+    end
+
+    def load_string(string)
+      import(YAML.load(string))
+    end
+
+    def import(yaml)
+      yaml.each do |importing|
         next unless Cocktail.where("LOWER(name)=LOWER(?)", importing[:name]).first.nil?
 
         c = Cocktail.new(name: importing[:name],

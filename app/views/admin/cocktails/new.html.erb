@@ -1,0 +1,7 @@
+<h1>Import Cocktails</h1>
+
+<%= form_tag admin_cocktails_path do %>
+  <%= label_tag :yaml %><br />
+  <%= text_area_tag :yaml, nil, rows: 20, cols: 100 %><br />
+  <%= submit_tag %>
+<% end %>
