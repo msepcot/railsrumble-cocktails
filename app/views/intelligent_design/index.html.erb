@@ -2,6 +2,11 @@
 
 <div id="selection">
 
+  <div class="alert alert-warning hidden">
+    <h4></h4>
+    <p></p>
+  </div>
+
 <% groups = @ingredients.group_by(&:group_id) %>
 
   <div class="clearfix">

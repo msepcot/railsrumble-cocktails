@@ -4,17 +4,28 @@
 function IntelligentDesign() {}
 
 IntelligentDesign.prototype.concoct = function () {
-  var selectedIngredients = $.map($('input:checked'), function (ing) { return $(ing).val(); }),
-      pageContext         = this;
+  var ingredients, success, error;
 
-  $.ajax({
-    url: '/godmode',
-    type: 'POST',
-    data: { ingredients: selectedIngredients },
-    dataType: 'json',
-    success: function (data) { pageContext.showDrinks(data); },
-    error: function (jqXHR, textStatus, errorThrown) { throw new Error(errorThrown); }
+  ingredients = $.map($('input:checked'), function (checkbox) {
+    return $(checkbox).val();
   });
+
+  success = function (data) {
+    this.showDrinks(data);
+    $('.alert').addClass('hidden');
+  };
+
+  fail = function (jqXHR, textStatus, errorThrown) {
+    var $alert = $('.alert');
+
+    $alert.children('h4').text('There was an error!');
+    $alert.children('p').text(errorThrown.message);
+    $alert.removeClass('hidden');
+
+    throw new Error(errorThrown);
+  };
+
+  $.getJSON('/godmode', { ingredients: ingredients }, success).fail(fail)
 }
 
 IntelligentDesign.prototype.showDrinks = function (drinks) {
