@@ -17,7 +17,12 @@
         <% end %>
       </ul>
 
+      <% if drink[:instructions] %>
       <h6>Full recipe</h6>
+      <p>
+        <%= drink[:instructions] %>
+      </p>
+      <% end %>
     </div>
   </div>
 
