@@ -9,7 +9,7 @@
     :group: Tequila
   - :amount: 1.5-2 oz
     :name: 99 Bananas liquor
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 3-4 oz
     :name: Margarita mix
     :group: Syrup
@@ -21,10 +21,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Grand Marnier
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 1 part
     :name: Drambuie
-    :group: Honey Liqueurs
+    :group: Honey liqueur
   :preparation: A classic Backdraft is prepared by pouring equal amounts of Drambuie and Grand Marnier into a snifter. The mixture is set alight, and after a few seconds, extinguished by having the imbiber seal the top of the glass with their hand, although often a coaster or saucer is used instead. Once the flame is out, a straw is inserted, keeping as much of the seal intact as possible to contain the vapors. Both the liquid and the vapors are then consumed through the straw.
   :served: Straight up; without ice; may be flaming
   :drinkware: Shot glass
@@ -32,7 +32,7 @@
   :ingredients:
   - :amount: 1 part
     :name: Grand Marnier
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 1 part
     :name: Bacardi 151 rum
     :group: Rum
@@ -76,7 +76,7 @@
     :group: Coffee Liqueur
   - :amount: 1 part (1/4 shot)
     :name: Irish cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   :preparation: Float Irish cream on top of coffee liqueur
   :served:
   :drinkware: Shot glass
@@ -85,10 +85,10 @@
   :ingredients:
   - :amount: 3 parts (3/4 shot)
     :name: Sambuca
-    :group: Herbal liqueurs
+    :group: Herbal liqueur
   - :amount: 1 part (1/4 shot)
     :name: Irish cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   :preparation: Float Irish cream on top of black Sambuca
   :served:
   :drinkware: Shot glass
@@ -100,7 +100,7 @@
     :group: Coffee Liqueur
   - :amount: 1 part (2 cl)
     :name: Irish Cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   - :amount: 1 part (2 cl)
     :name: Orange Cognac
     :group: Brandy
@@ -115,10 +115,10 @@
     :group: Coffee Liqueur
   - :amount: 1 part (2 cl)
     :name: Irish Cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   - :amount: 1 part (2 cl)
     :name: Triple Sec
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
   :served: Neat; undiluted and without ice
   :drinkware: Shot glass
@@ -130,10 +130,10 @@
     :group: Coffee Liqueur
   - :amount: 1 part (2 cl)
     :name: Irish Cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   - :amount: 1 part (2 cl)
     :name: Frangelico hazelnut liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
   :served: Neat; undiluted and without ice
   :drinkware: Shot glass
@@ -145,10 +145,10 @@
     :group: Coffee Liqueur
   - :amount: 1 part (2 cl)
     :name: Irish Cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   - :amount: 1 part (2 cl)
     :name: Triple Sec
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 1 part (2 cl)
     :name: gin
     :group: Gin
@@ -166,7 +166,7 @@
     :group: Tequila
   - :amount: 1 part (2 cl)
     :name: Triple Sec
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
   :served: Neat; undiluted and without ice
   :drinkware: Shot glass
@@ -178,13 +178,13 @@
     :group: Coffee Liqueur
   - :amount: 1 part (2 cl)
     :name: Irish Cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   - :amount: 1 part (2 cl)
     :name: Triple Sec
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 1 part (2 cl)
     :name: Frangelico hazelnut liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (2 cl)
     :name: Bacardi 151 rum
     :group: Rum
@@ -199,10 +199,10 @@
     :group: Coffee Liqueur
   - :amount: 1 part (2 cl)
     :name: Sambuca
-    :group: Herbal liqueurs
+    :group: Herbal liqueur
   - :amount: 1 part (2 cl)
     :name: Triple Sec
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
   :served: Neat; undiluted and without ice
   :drinkware: Shot glass
@@ -214,10 +214,10 @@
     :group: Coffee Liqueur
   - :amount: 1 part (2 cl)
     :name: Irish Cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   - :amount: 1 part (2 cl)
     :name: Amaretto almond liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
   :served: Neat; undiluted and without ice
   :drinkware: Shot glass
@@ -229,10 +229,10 @@
     :group: Coffee Liqueur
   - :amount: 1 part (2 cl)
     :name: Irish Cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   - :amount: 1 part (2 cl)
     :name: absinthe
-    :group: Herbal liqueurs
+    :group: Herbal liqueur
   :preparation: Layer ingredients into a shot glass. Serve with a stirrer.
   :served: Neat; undiluted and without ice
   :drinkware: Shot glass
@@ -262,7 +262,7 @@
     :group: Fruit Juice
   - :amount: 1 part (1.5 cl)
     :name: maraschino liqueur
-    :group: Fruit liqueurs
+    :group: Fruit liqueur
   :preparation: Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass. Garnish with a cherry.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -277,7 +277,7 @@
     :group: Fruit Juice
   - :amount: 1 part (1.5 cl)
     :name: crème de violette
-    :group: Flower liqueurs
+    :group: Flower liqueur
   :preparation: Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -291,7 +291,7 @@
     :group: Fruit Juice
   - :amount: 1 part (1.5 cl)
     :name: Creme Yvette
-    :group: Flower liqueurs
+    :group: Flower liqueur
   :preparation: Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -302,10 +302,10 @@
     :group: Gin
   - :amount: 1 part (1/2 oz)
     :name: Cointreau
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 1 part (1/2 oz)
     :name: creme de violette
-    :group: Flower liqueurs
+    :group: Flower liqueur
   - :amount: 1 part (1/2 oz)
     :name: lime juice
     :group: Fruit Juice
@@ -322,7 +322,7 @@
     :group:
   - :amount: 1 part (15 ml)
     :name: Cointreau
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -337,7 +337,7 @@
     :group: Brandy
   - :amount: 1 part (15 ml)
     :name: Cointreau
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -388,7 +388,7 @@
     :group:
   - :amount: 1 part (15 ml)
     :name: Cointreau
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -403,7 +403,7 @@
     :group: Brandy
   - :amount: 1 part (15 ml)
     :name: Cointreau
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -491,7 +491,7 @@
   :ingredients:
   - :amount: 1 part (3.5 cl)
     :name: Amaretto liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Cognac
     :group: Brandy
@@ -519,7 +519,7 @@
   :ingredients:
   - :amount: 1 part (3.5 cl)
     :name: Amaretto liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Vodka
     :group: Vodka
@@ -531,7 +531,7 @@
   :ingredients:
   - :amount: 1 part (3.5 cl)
     :name: Amaretto liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Cream
     :group:
@@ -543,10 +543,10 @@
   :ingredients:
   - :amount: 1 part (3.5 cl)
     :name: Amaretto liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Kahlúa
-    :group: Coffee Liqueurs
+    :group: Coffee liqueur
   - :amount: 1 part (3.5 cl)
     :name: Cream
     :group:
@@ -558,7 +558,7 @@
   :ingredients:
   - :amount: 1 part (3.5 cl)
     :name: Amaretto liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Orange juice
     :group:
@@ -573,7 +573,7 @@
   :ingredients:
   - :amount: 1 part (3.5 cl)
     :name: Amaretto liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Vodka
     :group: Vodka
@@ -588,7 +588,7 @@
   :ingredients:
   - :amount: 1 part (3.5 cl)
     :name: Amaretto liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Dark Run
     :group:
@@ -603,7 +603,7 @@
   :ingredients:
   - :amount: 1 part (3.5 cl)
     :name: Amaretto liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Sweet and Sour Mix
     :group:
@@ -612,7 +612,7 @@
   :ingredients:
   - :amount: 1 part (3.5 cl)
     :name: Amaretto liqueur
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1
     :name: egg white
     :group:
@@ -633,7 +633,7 @@
   :ingredients:
   - :amount: 1 part (3/4 oz)
     :name: Amaretto
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3/4 oz)
     :name: Southern Comfort
     :group:
@@ -1237,13 +1237,13 @@
   :ingredients:
   - :amount: 2 parts (1/2 oz, 15 ml)
     :name: Baileys
-    :group: Cream liqueurs
+    :group: Cream liqueur
   - :amount: 2 parts (1/2 oz, 15 ml)
     :name: Kahlúa
-    :group: Coffee Liqueurs
+    :group: Coffee liqueur
   - :amount: 1 part (1/4 oz, 7.4 ml)
     :name: Amaretto
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: to top
     :name: whipped cream
     :group:
@@ -1261,7 +1261,7 @@
     :group: Vodka
   - :amount: 1/2 ounce
     :name: Curaçao
-    :group: Fruit liqueurs
+    :group: Fruit liqueur
   - :amount: 3 ounces
     :name: pineapple juice
     :group: Fruit Juice
@@ -1279,7 +1279,7 @@
     :group: Vodka
   - :amount: 1 part
     :name: Blue Curaçao
-    :group: Fruit liqueurs
+    :group: Fruit liqueur
   - :amount: 4 parts
     :name: Lemonade
     :group:
@@ -1291,14 +1291,14 @@
   :ingredients:
   - :amount: 1 oz
     :name: Grand Marnier
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 1 oz
     :name: Amaretto
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   - :amount: to taste
     :name: Orange pekoe tea
     :group:
-  :preparation: Add both liqueurs to the snifter and then fill with hot tea to taste. Swaddle the brandy snifter in serviettes or a cloth to protect the hands. Some suggest a sugared rim, or adding sugar to the tea, or a lemon garnish.
+  :preparation: Add both liqueur to the snifter and then fill with hot tea to taste. Swaddle the brandy snifter in serviettes or a cloth to protect the hands. Some suggest a sugared rim, or adding sugar to the tea, or a lemon garnish.
   :served:
   :drinkware:
   :garnish: lemon
@@ -1483,7 +1483,7 @@
     :group: Rum
   - :amount: 1 part (1 oz)
     :name: Kahlúa
-    :group: Coffee Liqueurs
+    :group: Coffee liqueur
   - :amount: 1 part (1 oz)
     :name: Dark Crème de Cacao
     :group:
@@ -1504,10 +1504,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Sambuca
-    :group: Herbal liqueurs
+    :group: Herbal liqueur
   - :amount: 1 part
     :name: Baileys Irish Cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   :preparation: Pour the Sambuca into a shot glass, then pour the Baileys on top so that the two liquids do not mix.
   :served: Neat; undiluted and without ice
   :drinkware: shot glass
@@ -1945,13 +1945,13 @@
   :ingredients:
   - :amount: 1 part
     :name: Baileys Irish Cream
-    :group: Cream liqueurs
+    :group: Cream liqueur
   - :amount: 1 part
     :name: Hot Damn Cinnamon Schnapps
     :group:
   - :amount: 1 part
     :name: Frangelico
-    :group: Nut-flavored liqueurs
+    :group: Nut-flavored liqueur
   :preparation: Combine in a shot glass
   :served: neat
   :drinkware: shot glass
@@ -1981,7 +1981,7 @@
     :group:
   - :amount: 1 part
     :name: Triple sec
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 1 part
     :name: Bitters
     :group:
@@ -2044,7 +2044,7 @@
     :group:
   - :amount: 1 part
     :name: cointreau
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
   :served: straight up
   :drinkware: cocktail glass
@@ -2107,7 +2107,7 @@
     :group: Fruit Juice
   - :amount: 1 part
     :name: grand marnier
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Shake ingredients together with ice, and strain into champagne cocktail glass, and fill with champagne.
   :served: straight up
   :drinkware: cocktail glass
@@ -2155,7 +2155,7 @@
     :group:
   - :amount: 1 part
     :name: grand marnier
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Stir with ice, strain into glass, and serve.
   :served: on the rocks; poured over ice
   :drinkware: cocktail glass
@@ -2176,7 +2176,7 @@
     :group:
   - :amount: 1 part
     :name: cointreau
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
   :served: straight up
   :drinkware: cocktail glass
@@ -2188,7 +2188,7 @@
     :group:
   - :amount: 1 part
     :name: grand marnier
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 2 dashes
     :name: rosewater
     :group:
@@ -2479,7 +2479,7 @@
     :group: Vodka
   - :amount: 1 part
     :name: blue Curaçao
-    :group: Fruit liqueurs
+    :group: Fruit liqueur
   - :amount: 1 part
     :name: grenadine
     :group: Syrup
@@ -2527,7 +2527,7 @@
     :group: Vodka
   - :amount: 1.5 cl
     :name: cointreau
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 1.5 cl
     :name: lime juice
     :group: Fruit Juice
@@ -2587,7 +2587,7 @@
     :group: Brandy
   - :amount: 2 oz (6 cl)
     :name: orange curacao
-    :group: Fruit Liqueurs
+    :group: Fruit liqueur
   - :amount: 1 oz (3 cl)
     :name: Jamaican rum
     :group: Rum
