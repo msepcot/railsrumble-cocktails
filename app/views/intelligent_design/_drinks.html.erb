@@ -1,23 +1,31 @@
-<table>
-
-  <thead>
-<% display_attributes = drinks.first.attributes.except('id', 'created_at', 'updated_at', 'ingredient_id_array') %>
-    <tr>
-<% display_attributes.each do |key, value| %>
-      <th><%= "#{key}" %></th>
-<% end %>
-    </tr>
-  </thead>
-
-  <tbody>
 <% drinks.each do |drink| %>
-  <% display_attributes = drink.attributes.except('id', 'created_at', 'updated_at', 'ingredient_id_array') %>
-    <tr>
-  <% display_attributes.each do |key, value| %>
-      <td><%= "#{value}" %></td>
-  <% end %>
-    </tr>
-<% end %>
-  </tbody>
+  <% display_hash = drink.attributes.except('id', 'name', 'created_at', 'updated_at', 'ingredient_id_array') %>
 
-<table>
+<div class="col-xs-6 col-md-4">
+  <h4 class="drink"><%= "#{drink[:name]}" %></h4>
+
+  <div class="drink-info">
+    <table>
+      <thead>
+        <tr>
+    <% display_hash.keys.each do |key| %>
+          <th><%= "#{key}"%></th>
+    <% end %>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+    <% display_hash.each_value do |value| %>
+          <td><%= "#{value}" %></td>
+    <% end %>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<% end %>
+
+<!-- name  image  instructions  drinkware_id  served  garnish
+Bananarita    Fill the glass halfway (6oz.) with ice. Pour the tequila to the rim of the ice. Add the 99 Bananas liquor as well as the margarita mix; finish by adding the garnishes.  1  On the rocks; poured over ice  salt rimmed glass, lime slice -->

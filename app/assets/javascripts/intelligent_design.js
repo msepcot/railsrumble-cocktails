@@ -19,6 +19,11 @@ IntelligentDesign.prototype.concoct = function () {
 
 IntelligentDesign.prototype.showDrinks = function (drinks) {
   $('#drinks').html(drinks.html);
+
+  // Toggles visibility of drink details.
+  $('.drink').on('click', function (event) {
+    $(event.target).next('.drink-info').slideToggle('fast');
+  });
 };
 
 $(function () {
