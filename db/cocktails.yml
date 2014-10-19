@@ -508,7 +508,7 @@
     :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Scotch whisky
-    :group: Whisky
+    :group: Whiskey liqueur
   - :amount:
     :name: Ice
     :group: Pantry Item
@@ -618,7 +618,7 @@
     :group: Pantry Item
   - :amount: 1 part (3.5 cl)
     :name: cask strength bourbon
-    :group: Whisky liqueur
+    :group: Whiskey liqueur
   - :amount: 1 part (3.5 cl)
     :name: lemon juice
     :group: Fruit Juice
@@ -1306,7 +1306,7 @@
   :ingredients:
   - :amount: 1 part
     :name: Scotch whisky
-    :group: Whisky liqueur
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: red vermouth
     :group: wine
@@ -1345,7 +1345,7 @@
   :ingredients:
   - :amount: 9 parts
     :name: Bourbon
-    :group: Whisky liqueur
+    :group: Whiskey liqueur
   - :amount: 16 parts
     :name: Champagne
     :group: Wine
@@ -1426,7 +1426,7 @@
   :ingredients:
   - :amount: 2 oz
     :name: Canadian whisky
-    :group: Whisky
+    :group: Whiskey liqueur
   - :amount: 1 oz
     :name: dry vermouth
     :group: wine
@@ -1723,7 +1723,7 @@
   :ingredients:
   - :amount: 1 part
     :name: canadian whisky
-    :group: Whisky
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: ginger ale
     :group: Miscellaneous Beverage
@@ -1771,7 +1771,7 @@
   :ingredients:
   - :amount: 1 part
     :name: Maker's Mark
-    :group: Whisky liqueur
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: Orange Crush
     :group: Miscellaneous Beverage
@@ -1822,7 +1822,7 @@
   :ingredients:
   - :amount: 1 part
     :name: Canadian Whisky
-    :group: Whisky
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: Ginger ale
     :group: Miscellaneous Beverage
@@ -2035,7 +2035,7 @@
   :ingredients:
   - :amount: 3 parts
     :name: scotch whisky
-    :group: Whisky liqueur
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: lime juice
     :group: Fruit Juice
@@ -2164,7 +2164,7 @@
   :ingredients:
   - :amount: 2 parts
     :name: bourbon whisky
-    :group: Whisky liqueur
+    :group: Whiskey liqueur
   - :amount: 2 parts
     :name: applejack
     :group: Brandy
@@ -2221,7 +2221,7 @@
   :ingredients:
   - :amount: 1 part
     :name: bourbon whisky
-    :group: Whisky liqueur
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: sloe gin
     :group: Gin
@@ -2254,7 +2254,7 @@
   :ingredients:
   - :amount: 1 part
     :name: canadian whisky
-    :group: Whisky
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: apple schnapps
     :group: Fruit liqueur
