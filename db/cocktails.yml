@@ -1204,3 +1204,855 @@
   :served: Neat; undiluted and without ice
   :drinkware: shot glass
   :garnish: cherry
+- :name: Caesar
+  :ingredients:
+  - :amount: 6 oz
+    :name: Clamato juice
+  - :amount: 1-1 1/2 oz
+    :name: vodka
+  - :amount: 2 dashes
+    :name: Hot Sauce
+  - :amount: 4 dashes
+    :name: Worcestershire sauce
+  - :amount:
+    :name: Celery Salt
+  - :amount:
+    :name: Ground Pepper
+  - :amount: 1
+    :name: Lime Wedge
+  - :amount: 1
+    :name: Celery Stalk
+  :preparation:
+  :served: on the rocks
+  :drinkware: Highball glass
+  :garnish: Rim glass with celery salt, and a lime wedge.
+- :name: Caipirinha
+  :ingredients:
+  - :amount: 5 cl
+    :name: Cachaça
+  - :amount: 4 wedges
+    :name: Lime
+  - :amount: 2 tsp
+    :name: brown sugar
+  :preparation: Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon). Fill the glass with crushed ice and add the Cachaça.
+  :served: on the rocks; poured over ice
+  :drinkware: Old Fashioned glass
+  :garnish:
+- :name: Batida
+  :ingredients:
+  - :amount: 2 parts
+    :name: cachaça
+  - :amount: 1 part
+    :name: fruit juice
+  - :amount: 1 tbsp
+    :name: sugar
+  :preparation: Mix and pour into chilled glass.
+  :served: on the rocks; poured over ice
+  :drinkware: Zombie glass
+  :garnish:
+- :name: Caju amigo
+  :ingredients:
+  - :amount: 1 part
+    :name: cachaça
+  - :amount: 1 part
+    :name: cashew juice
+  - :amount: 1 slice
+    :name: cashew
+  :preparation: The slice is placed on the tongue and chased by the shot of cachaça. Or the two ingredients are mixed in a shot glass and served straight.
+  :served: neat; undiluted and without ice
+  :drinkware: shot glass
+  :garnish: slice of cashew
+- :name: Quentão
+  :ingredients:
+  - :amount: 1 part
+    :name: cachaça
+  - :amount: 1 part
+    :name: water
+  - :amount: to taste
+    :name: sugar
+  - :amount: 2
+    :name: orange peel
+  - :amount: 1
+    :name: lime peel
+  :preparation: caramelize the sugar with the spices and peels, then add the liquids. Boil for a few minutes then serve hot.
+  :served: hot
+  :drinkware: mug
+  :garnish: citrus peel
+- :name: Leite de Onça
+  :ingredients:
+  - :amount: 2 part
+    :name: cachaça
+  - :amount: 2 part
+    :name: milk
+  - :amount: 2 part
+    :name: cocoa liqueur
+  - :amount: 1 part
+    :name: condensed milk
+  :preparation: mix the condensed milk and the milk until they blend together. Add cachaça and let it rest. Add cocoa licor when it's ready to serve
+  :served: neat; undiluted and without ice
+  :drinkware: mug
+  :garnish: cinnamon or chocolate
+- :name: Les Roysa
+  :ingredients:
+  - :amount: 2 parts (2 oz)
+    :name: cachaça
+  - :amount: 1 slice
+    :name: orange
+  - :amount: 1 slice
+    :name: lemon
+  - :amount: 1 slice
+    :name: lime
+  - :amount: 1 part (1 oz)
+    :name: guava juice
+  - :amount: 1 tbsp
+    :name: sugar
+  :preparation: In a mixing glass, mix sugar and fruit slices and press to juice fruit, add ice, guava juice and cachaça, mix again - pour into tall glass.
+  :served: on the rocks
+  :drinkware: zombie glass
+  :garnish:
+- :name: Cape Cod
+  :ingredients:
+  - :amount: 1 part
+    :name: vodka
+  - :amount: 1 part
+    :name: cranberry juice
+  :preparation:
+  :served: on the rocks; poured over ice
+  :drinkware: highball glass
+  :garnish: lime slice
+- :name: Bourbon Highball
+  :ingredients:
+  - :amount: 1 part
+    :name: bourbon whiskey
+  - :amount: 1 part
+    :name: ginger ale
+  - :amount: twist
+    :name: lemon
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Caribou Lou
+  :ingredients:
+  - :amount: 2 parts
+    :name: bacardi 151 rum
+  - :amount: 1 part
+    :name: malibu rum
+  - :amount: 13 parts
+    :name: pineapple juice
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Cuba Libre
+  :ingredients:
+  - :amount: 1 part
+    :name: white rum
+  - :amount: 1 part
+    :name: cola
+  - :amount: twist
+    :name: lime
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Dark 'N' Stormy
+  :ingredients:
+  - :amount: 1 part
+    :name: dark rum
+  - :amount: 1 part
+    :name: ginger beer
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Ginger Whisky
+  :ingredients:
+  - :amount: 1 part
+    :name: canadian whisky
+  - :amount: 1 part
+    :name: ginger ale
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Gin and tonic
+  :ingredients:
+  - :amount: 1 part
+    :name: gin
+  - :amount: 1 part
+    :name: tonic water
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Traditional Greyhound
+  :ingredients:
+  - :amount: 1 part
+    :name: gin
+  - :amount: 1 part
+    :name: grapefruit juice
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Salty Dog
+  :ingredients:
+  - :amount: 1 part
+    :name: vodka
+  - :amount: 1 part
+    :name: grapefruit juice
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish: salted rim
+- :name: Brown Bronco
+  :ingredients:
+  - :amount: 1 part
+    :name: Maker's Mark
+  - :amount: 1 part
+    :name: Orange Crush
+  - :amount: crushed
+    :name: ice
+  :preparation: Mix and pour over lots of crushed ice.
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Jack and Coke
+  :ingredients:
+  - :amount: 1 part
+    :name: Jack Daniel's
+  - :amount: 1 part
+    :name: Coca-Cola
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Libbi's Label
+  :ingredients:
+  - :amount: 1 part
+    :name: rum
+  - :amount: 1 part
+    :name: orange juice
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Finland Long Drink
+  :ingredients:
+  - :amount: 1 part
+    :name: gin
+  - :amount: 1 part
+    :name: grapefruit juice
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Mark Rogers (Long Drink)
+  :ingredients:
+  - :amount: 1 part
+    :name: Canadian Whisky
+  - :amount: 1 part
+    :name: Ginger ale
+  - :amount: 1 part
+    :name: cola
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Moscow Mule
+  :ingredients:
+  - :amount: 1 part
+    :name: vodka
+  - :amount: 1 part
+    :name: ginger beer
+  - :amount: squeezed
+    :name: lime
+  :preparation:
+  :served:
+  :drinkware: copper mug
+  :garnish:
+- :name: Pimm's Cup
+  :ingredients:
+  - :amount: 1 part
+    :name: Pimm's No.1 Cup
+  - :amount: 1 part
+    :name: Ginger Ale
+  - :amount: 1 part
+    :name: Lemon-Lime Soda
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Piscola
+  :ingredients:
+  - :amount: 1 part
+    :name: Pisco
+  - :amount: 1 part
+    :name: Cola
+  :preparation:
+  :served: poured over ice
+  :drinkware: highball glass
+  :garnish:
+- :name: Rum and Coke
+  :ingredients:
+  - :amount: 1 part
+    :name: rum
+  - :amount: 1 part
+    :name: Coca-Cola
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Screwdriver
+  :ingredients:
+  - :amount: 1 part
+    :name: Vodka
+  - :amount: 1 part
+    :name: Orange juice
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Texas Highball
+  :ingredients:
+  - :amount: 1 part
+    :name: Jack Daniel's Tennessee Whiskey
+  - :amount: 1 part
+    :name: Sweetened Tea
+  - :amount: squeeze
+    :name: lemon
+  :preparation:
+  :served: poured over ice
+  :drinkware: highball glass
+  :garnish:
+- :name: Vodka Soda
+  :ingredients:
+  - :amount: 1 part
+    :name: vodka
+  - :amount: 1 part
+    :name: soda
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Vodka Cola
+  :ingredients:
+  - :amount: 3 parts
+    :name: vodka
+  - :amount: 4 parts
+    :name: lemon juice
+  - :amount: 5 parts
+    :name: cola
+  :preparation:
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Carrot Cake
+  :ingredients:
+  - :amount: 1 part
+    :name: Baileys Irish Cream
+  - :amount: 1 part
+    :name: Hot Damn Cinnamon Schnapps
+  - :amount: 1 part
+    :name: Frangelico
+  :preparation:
+  :served:
+  :drinkware: shot glass
+  :garnish:
+- :name: Champagne cocktail
+  :ingredients:
+  - :amount: 9 cl
+    :name: Champagne
+  - :amount: 1 cl
+    :name: Cognac
+  - :amount: 2 dashes
+    :name: Angostura bitters
+  - :amount: 1 cube
+    :name: sugar
+  :preparation:
+  :served: straight up
+  :drinkware: champagne flute
+  :garnish: orange slice and maraschino cherry
+- :name: Chicago Cocktail
+  :ingredients:
+  - :amount: 1 part
+    :name: Brandy
+  - :amount: 1 part
+    :name: Triple sec
+  - :amount: 1 part
+    :name: Bitters
+  - :amount: 1 part (optional)
+    :name: Champagne
+  :preparation: Shake or stir with ice.
+  :served: on the rocks; poured over ice
+  :drinkware: old fashioned glass
+  :garnish: lemon slice
+- :name: Chimayó Cocktail
+  :ingredients:
+  - :amount: 1 1/2 oz
+    :name: Tequila
+  - :amount: 1 oz
+    :name: apple cider
+  - :amount: 1/4 oz
+    :name: lemon juice
+  - :amount: 1/4 oz
+    :name: creme de cassis
+  :preparation: Pour the tequila and unfiltered apple cider into glass over ice. Add the lemon juice and creme de cassis and stir. Garnish and serve.
+  :served: on the rocks; poured over ice
+  :drinkware: Highball glass
+  :garnish: slice of unpeeled apple
+- :name: The Blenheim
+  :ingredients:
+  - :amount: 3 parts
+    :name: brandy
+  - :amount: 2 parts
+    :name: yellow chartreuse
+  - :amount: 1 part
+    :name: lillet
+  - :amount: 1 part
+    :name: orange juice
+  - :amount: 1 part
+    :name: dubonnet
+  :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Churchill
+  :ingredients:
+  - :amount: 3 parts
+    :name: scotch whisky
+  - :amount: 1 part
+    :name: lime juice
+  - :amount: 1 part
+    :name: sweet vermouth
+  - :amount: 1 part
+    :name: cointreau
+  :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Common Market
+  :ingredients:
+  - :amount: 1 part
+    :name: Elixir d'Anu
+  - :amount: 1 part
+    :name: Cherry Brandy
+  - :amount: 1 part
+    :name: Noilly Prat
+  - :amount: 1 part
+    :name: Schlichte
+  - :amount: 1 part
+    :name: Sloe gin
+  - :amount: 1 part
+    :name: orange curacao
+  - :amount: 1 part
+    :name: dry while wine
+  - :amount: 1 part
+    :name: coffee liqueur
+  - :amount: 1 part
+    :name: carpano
+  :preparation:
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Four Score
+  :ingredients:
+  - :amount: 3 parts
+    :name: brandy
+  - :amount: 2 parts
+    :name: lillet
+  - :amount: 1 part
+    :name: yellow chartreuse
+  :preparation: Stir together with ice, strain into glass, garnish with a twisted lemon rind
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish: twisted lemon rind
+- :name: Golden Doublet
+  :ingredients:
+  - :amount: 3 parts
+    :name: orange juice
+  - :amount: 1 part
+    :name: lime juice
+  - :amount: 1 part
+    :name: grand marnier
+  :preparation: Shake ingredients together with ice, and strain into champagne cocktail glass, and fill with champagne.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Kensington Court Special
+  :ingredients:
+  - :amount: 1 part
+    :name: passion fruite juice
+  - :amount: 1 part
+    :name: lime juice
+  - :amount: 1 part
+    :name: apricot brandy
+  - :amount: 3 parts
+    :name: vodka
+  :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Link Up
+  :ingredients:
+  - :amount: 1 part
+    :name: southern comfort
+  - :amount: 1 part
+    :name: vodka
+  - :amount: 1 tsp
+    :name: lime juice
+  :preparation: Shake well, serve on the rocks.
+  :served: on the rocks; poured over ice
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Lorraine
+  :ingredients:
+  - :amount: 2 parts
+    :name: gin
+  - :amount: 1 part
+    :name: lillet
+  - :amount: 1 part
+    :name: grand marnier
+  :preparation: Stir with ice, strain into glass, and serve.
+  :served: on the rocks; poured over ice
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Missouri Mule
+  :ingredients:
+  - :amount: 2 parts
+    :name: bourbon whisky
+  - :amount: 2 parts
+    :name: applejack
+  - :amount: 2 parts
+    :name: lemon juice
+  - :amount: 1 part
+    :name: campari
+  - :amount: 1 part
+    :name: cointreau
+  :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Moonwalk
+  :ingredients:
+  - :amount: 1 part
+    :name: grapefruit juice
+  - :amount: 1 part
+    :name: grand marnier
+  - :amount: 2 dashes
+    :name: rosewater
+  :preparation: Shake well, strain into wine glass and top up with champagne.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: My Fair Lady
+  :ingredients:
+  - :amount: 1 part
+    :name: gin
+  - :amount: 1 part
+    :name: lemon juice
+  - :amount: 1 part
+    :name: orange juice
+  - :amount: 1 part
+    :name: Sirop de Fraise or Strawberry Syrup
+  - :amount: 1 dash
+    :name: egg white
+  :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Nixon
+  :ingredients:
+  - :amount: 1 part
+    :name: bourbon whisky
+  - :amount: 1 part
+    :name: sloe gin
+  - :amount: 2 dashes
+    :name: peach bitters
+  :preparation: Stir and serve on the rocks, garnish.
+  :served: on the rocks; poured over ice
+  :drinkware: cocktail glass
+  :garnish: a slice of fresh peach and a cherry
+- :name: Powerscourt
+  :ingredients:
+  - :amount: 1 part
+    :name: brandy
+  - :amount: 1 part
+    :name: lime juice
+  - :amount: 2 parts
+    :name: orange juice
+  - :amount: 2 parts
+    :name: creme de peche liqueur
+  :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: The Ed Shelly
+  :ingredients:
+  - :amount: 1 part
+    :name: canadian whisky
+  - :amount: 1 part
+    :name: apple schnapps
+  :preparation: Shake ingredients together. Serve straight or with one ice cube
+  :served: straight up
+  :drinkware: snifter
+  :garnish:
+- :name: Prince of Wales
+  :ingredients:
+  - :amount: 1 part
+    :name: lemon juice
+  - :amount: 1 part
+    :name: cherry brandy
+  - :amount: 1
+    :name: strawberry
+  - :amount: 1 tsp
+    :name: sugar
+  :preparation: Blend and then pour into a champagne glass and fill with champagne.
+  :served: straight up
+  :drinkware: champagne flute
+  :garnish:
+- :name: Royal Arrival
+  :ingredients:
+  - :amount: 4 parts
+    :name: gin
+  - :amount: 1 part
+    :name: lemon juice
+  - :amount: 1 part
+    :name: Crème de Noyaux
+  - :amount: 1 part
+    :name: Kümmel
+  - :amount: dash
+    :name: egg white
+  - :amount: dash
+    :name: begetable extract
+  :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Savoy Affair
+  :ingredients:
+  - :amount: 1 part
+    :name: lime juice
+  - :amount: 1 part
+    :name: Fraise de Bois liqueur
+  - :amount: 1 part
+    :name: passion fruit juice
+  - :amount: 1 part
+    :name: peach brandy
+  :preparation: Shake ingredients together with ice, and strain into a cocktail glass, and fill with champagne and garnish.
+  :served: straight up
+  :drinkware: champagne cocktail glass
+  :garnish: a strawberry
+- :name: Savoy Royale
+  :ingredients:
+  - :amount: 1/2
+    :name: peach
+  - :amount: 2
+    :name: strawberries
+  - :amount: 1 tsp
+    :name: sugar
+  :preparation: Liquidise, strain into a champagne glass and fill with champagne.
+  :served: straight up
+  :drinkware: champagne glass
+  :garnish:
+- :name: Savoy Corpse Reviver
+  :ingredients:
+  - :amount: 1 part
+    :name: brandy
+  - :amount: 1 part
+    :name: fernet branca
+  - :amount: 1 part
+    :name: white Crème de menthe
+  :preparation: Shake ingredients together with ice, and strain into a glass.
+  :served: straight up
+  :drinkware:
+  :garnish:
+- :name: Wolfram
+  :ingredients:
+  - :amount: 2 parts
+    :name: gin
+  - :amount: 2 parts
+    :name: wolfschmidt
+  - :amount: 2 parts
+    :name: dry vermouth
+  - :amount: 1 part
+    :name: lemon juice
+  :preparation:
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Caipirinha
+  :ingredients:
+  - :amount: 50 ml
+    :name: Cachaça
+  - :amount: 1/2 (4 wedges)
+    :name: lime
+  - :amount: 2 tsp
+    :name: sugar
+  :preparation: Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon). Fill the glass with crushed ice and add the Cachaça.
+  :served: on the rocks; poured over ice
+  :drinkware: old fashioned glass
+  :garnish: lime
+- :name: Batida (Shaken)
+  :ingredients:
+  - :amount: 2 parts
+    :name: Cachaça
+  - :amount: 1 part
+    :name: fruit juice
+  - :amount: 1 tbsp
+    :name: sugar
+  :preparation: Mix and pour into chilled glass
+  :served: on the rocks; poured over ice
+  :drinkware: zombie glass
+  :garnish:
+- :name: Quentão (Hot Stuff)
+  :ingredients:
+  - :amount: 1 part
+    :name: Cachaça
+  - :amount: 1 part
+    :name: water
+  - :amount: to taste
+    :name: sugar
+  - :amount: 2 peel
+    :name: oranges
+  - :amount: 1 peel
+    :name: lime
+  - :amount: to taste
+    :name: cloves
+  - :amount: to taste
+    :name: cinnamon
+  - :amount: to taste
+    :name: ginger
+  :preparation: caramelize the sugar with the spices and peels, then add the liquids. Boil for a few minutes then serve hot.
+  :served: hot
+  :drinkware: mug
+  :garnish: citrus peel
+- :name: Leite de Onça (Jaguar Milk)
+  :ingredients:
+  - :amount: 2 parts
+    :name: Cachaça
+  - :amount: 2 parts
+    :name: milk
+  - :amount: 2 parts
+    :name: cocoa liqueur
+  - :amount: 1 part
+    :name: condensed milk
+  :preparation: mix the condensed milk and the milk until they blend together. Add cachaça and let it rest. Add cocoa licor when it's ready to serve
+  :served: neat; undiluted and without ice
+  :drinkware: mug
+  :garnish: cinnamon or chocolate
+- :name: Les Roysa
+  :ingredients:
+  - :amount: 2 parts (2 oz)
+    :name: Cachaça
+  - :amount: 1 slice
+    :name: orange
+  - :amount: 1 slice
+    :name: lemon
+  - :amount: 1 slice
+    :name: lime
+  - :amount: 1 part (1 oz)
+    :name: guava juice
+  - :amount: 1 tbsp
+    :name: sugar
+  :preparation: In a mixing glass, mix sugar and fruit slices and press to juice fruit, add ice, guava juice and cachaça, mix again - pour into tall glass.
+  :served: on the rocks; poured over ice
+  :drinkware: zombie glass
+  :garnish:
+- :name: Colombia
+  :ingredients:
+  - :amount: 2 parts
+    :name: vodka
+  - :amount: 1 part
+    :name: blue Curaçao
+  - :amount: 1 part
+    :name: grenadine
+  - :amount: 1 part
+    :name: lemon juice
+  - :amount: 6 parts
+    :name: orange juice
+  :preparation: Shake the vodka and citrus juices in a mixer, then strain into the glass. Slide the grenadine down one side of the glass, where it will sink to the bottom. Slide the curacao down the other side, to lie between the vodka and grenadine, and serve before the layers have a chance to mix.
+  :served:
+  :drinkware: highball glass
+  :garnish:
+- :name: Corn N' Oil
+  :ingredients:
+  - :amount: 6 parts (60 ml)
+    :name: blackstrap rum
+  - :amount: 1 part (10 ml)
+    :name: Falernum
+  :preparation: Pour the rum and falernum into a glass over ice and stir well. Squeeze in the lime wedge(s) and drop it in.
+  :served: on the rocks; poured over ice
+  :drinkware: highball glass
+  :garnish: lime wedge or two
+- :name: Corpse Reviver
+  :ingredients:
+  - :amount: 2 parts
+    :name: cognac
+  - :amount: 1 part
+    :name: apple brandy
+  - :amount: 1 part
+    :name: sweet vermouth
+  :preparation: Stir with ice, strain into a chilled cocktail glass.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish:
+- :name: Cosmopolitan
+  :ingredients:
+  - :amount: 3 cl
+    :name: vodka citron
+  - :amount: 1.5 cl
+    :name: cointreau
+  - :amount: 1.5 cl
+    :name: lime juice
+  - :amount: 3 cl
+    :name: cranberry juice
+  :preparation: Add all ingredients into cocktail shaker filled with ice. Shake well and double strain into large cocktail glass. Garnish with lime wheel.
+  :served: straight up
+  :drinkware: cocktail glass
+  :garnish: lemon slice, lime wedge
+- :name: Cuba Libre
+  :ingredients:
+  - :amount: 12 cl
+    :name: Cola
+  - :amount: 5 cl
+    :name: white rum
+  - :amount: 1 cl
+    :name: lime juice
+  :preparation: Build all ingredients in a highball glass filled with ice. Garnish with lime wedge.
+  :served: on the rocks; poured over ice
+  :drinkware: 12 oz glass
+  :garnish:
+- :name: Culto A La Vida
+  :ingredients:
+  - :amount: 1 tsp
+    :name: sugar
+  - :amount: 15 ml
+    :name: lime juice
+  - :amount: 120 ml
+    :name: cranberry juice
+  - :amount: 60 ml
+    :name: Havana Club Añejo 7 Años
+  :preparation: Dissolve 1 spoon of sugar in 15 ml of lime. Add ice cubes. Add the cranberry juice. Add the Havana Club Añejo 7 Años.
+  :served:
+  :drinkware: long drink glass
+  :garnish:
+- :name: Curacao Punch
+  :ingredients:
+  - :amount: 1/2 tbsp
+    :name: sugar
+  - :amount: 2-3 dashses
+    :name: lemon juice
+  - :amount: 1 oz (3 cl)
+    :name: soda water
+  - :amount: 1 oz (3 cl)
+    :name: brandy
+  - :amount: 2 oz (6 cl)
+    :name: orange curacao
+  - :amount: 1 oz (3 cl)
+    :name: Jamaican rum
+  :preparation: In a bar glass or goblet, combine the sugar, lemon juice, and soda water. Dissolve the sugar, and fill a glass with finely shaved or thoroughly crushed ice. Add the remaining ingredients.
+  :served:
+  :drinkware:
+  :garnish: variety of fruits
