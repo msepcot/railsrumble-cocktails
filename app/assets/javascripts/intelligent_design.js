@@ -3,30 +3,28 @@
 
 function IntelligentDesign() {}
 
-IntelligentDesign.prototype.concoct = function() {
-    var selectedIngredients = $('input:checked');
-    var pageContext = this;
-    $.ajax({
-        url: "/godmode",
-        type: "POST",
-        data: { ingredients : _.map(selectedIngredients, function(ing) { return $(ing).val() }) },
-        dataType: "json",
-        success: function (data) {
-            pageContext.showDrinks(data);
-        },
-        error: function (jqXHR, textStatus, errorThrown) { console.log(errorThrown) }
-    });
+IntelligentDesign.prototype.concoct = function () {
+  var selectedIngredients = $('input:checked'),
+      pageContext         = this;
+
+  $.ajax({
+    url: '/godmode',
+    type: 'POST',
+    data: { ingredients : $.map(selectedIngredients, function (ing) { return $(ing).val(); }) },
+    dataType: 'json',
+    success: function (data) { pageContext.showDrinks(data); },
+    error: function (jqXHR, textStatus, errorThrown) { throw new Error(errorThrown); }
+  });
 }
 
-IntelligentDesign.prototype.showDrinks = function(drinks) {
-    console.log(drinks);
-}
+IntelligentDesign.prototype.showDrinks = function (drinks) {
+  $('#drinks').html(drinks.html);
+};
 
-$(function() {
+$(function () {
+  var iDesign = new IntelligentDesign();
 
-    var iDesign = new IntelligentDesign();
-
-    $('.button').click(function() {
-        iDesign.concoct();
-    })
+  $('#let-there-be-drinks').on('click', function () {
+      iDesign.concoct();
+  });
 });

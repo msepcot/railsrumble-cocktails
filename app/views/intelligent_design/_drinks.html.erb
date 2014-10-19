@@ -1,0 +1,23 @@
+<table>
+
+  <thead>
+<% display_attributes = drinks.first.attributes.except('id', 'created_at', 'updated_at', 'ingredient_id_array') %>
+    <tr>
+<% display_attributes.each do |key, value| %>
+      <th><%= "#{key}" %></th>
+<% end %>
+    </tr>
+  </thead>
+
+  <tbody>
+<% drinks.each do |drink| %>
+  <% display_attributes = drink.attributes.except('id', 'created_at', 'updated_at', 'ingredient_id_array') %>
+    <tr>
+  <% display_attributes.each do |key, value| %>
+      <td><%= "#{value}" %></td>
+  <% end %>
+    </tr>
+<% end %>
+  </tbody>
+
+<table>
