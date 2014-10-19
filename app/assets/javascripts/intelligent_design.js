@@ -28,6 +28,8 @@ IntelligentDesign.prototype.showDrinks = function (drinks) {
   $('#again').on('click', function (event) {
     event.preventDefault();
 
+    $('#selection').slideToggle('slow');
+
     $('html, body').animate({
       scrollTop: 0
     }, function () {
@@ -42,5 +44,6 @@ $(function () {
 
   $('#let-there-be-drinks').on('click', function () {
     iDesign.concoct();
+    $('#selection').slideToggle('slow');
   });
 });

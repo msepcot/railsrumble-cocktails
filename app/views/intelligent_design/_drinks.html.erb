@@ -9,14 +9,14 @@
     <img src="<%= drink[:image] %>" alt="<%= drink[:name] %>">
     <% end %>
 
-    <h3>Ingredients</h3>
+    <h5>Ingredients</h5>
     <ul>
       <% drink.recipes.each do |recipe| %>
         <li><%= recipe.ingredient.name %></li>
       <% end %>
     </ul>
 
-    <h4>Full recipe</h4>
+    <h6>Full recipe</h6>
   </div>
 </div>
 
