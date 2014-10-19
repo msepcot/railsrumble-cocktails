@@ -37,7 +37,7 @@ gem 'rails_12factor', group: :production
 # gem 'capistrano-rails', group: :development
 
 # Use byebug instead of debugger for Ruby 2.*
-gem 'byebug', group: [:development, :test]
+#gem 'byebug', group: [:development, :test]
 
 # Suggestion to use unicorn for Heroku in production
 gem 'unicorn'

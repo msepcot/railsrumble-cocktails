@@ -6,7 +6,7 @@
     <div class="row">
       <% ing_array.compact.each do |ing| %>
           <div class="col-xs-6 col-sm-4">
-            <input type="checkbox" value="<%= ing.id %>" id="ingredient_<%= ing.id %>" />
+            <input type="checkbox" value="<%= ing.id %>" id="ingredient_<%= ing.id %>" <%= 'checked' if saved_ingredient? ing.id %> />
             <%= label_tag("ingredient_#{ing.id}", ing.name.titleize) %>
           </div>
       <% end %>
