@@ -20,6 +20,7 @@ Evolution.prototype.evolve = function() {
     if (data.drinks.length === 0) {
       $alert.children('h4').text('You have reach the highest evolution!');
       $alert.children('p').text('Congradulations on becoming the dominant drink in your species!.');
+      $alert.removeClass('hidden');
     } else {
       this.showDrinks(data);
       $('#natural-selection').addClass('disabled');
