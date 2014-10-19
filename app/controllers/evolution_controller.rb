@@ -11,5 +11,6 @@ class EvolutionController < ApplicationController
     else
       ings = Cocktail.find(params[:cocktail]).ingredients.map { |i| i.id }
       render json: Cocktail.evolve(ings, params[:cocktail])
+    end
   end
 end
