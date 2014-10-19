@@ -42,6 +42,10 @@ IntelligentDesign.prototype.showDrinks = function (drinks) {
 $(function () {
   var iDesign = new IntelligentDesign();
 
+  $('.group').on('click', function (event) {
+    $(event.target).next('.ingredients').slideToggle();
+  });
+
   $('#let-there-be-drinks').on('click', function () {
     iDesign.concoct();
   });

@@ -1,18 +1,23 @@
 <h2>Intelligent Design</h2>
 
 <div id="selection">
-  <h3>Your Ingredients</h3>
 
-  <% @ingredients.in_groups_of(3).each do |ing_array| %>
-      <div class="row">
-        <% ing_array.compact.each do |ing| %>
-            <div class="col-xs-6 col-sm-4">
-              <input type="checkbox" value="<%= ing.id %>" id="ingredient_<%= ing.id %>" <%= 'checked' if saved_ingredient? ing.id %> />
-              <%= label_tag("ingredient_#{ing.id}", ing.name.titleize) %>
-            </div>
-        <% end %>
+<% groups = @ingredients.group_by(&:group_id) %>
+
+  <div class="clearfix">
+<% groups.each do |group_id, array| %>
+    <div class="group col-xs-6 col-md-4">
+      <h4><%= group_id.nil? ? 'Ungrouped' : Group.find(group_id).name.titleize %></h4>
+      <div class="ingredients">
+      <% array.compact.each do |ing| %>
+        <input type="checkbox" value="<%= ing.id %>" id="ingredient_<%= ing.id %>" <%= 'checked' if saved_ingredient? ing.id %> />
+        <%= label_tag("ingredient_#{ing.id}", ing.name.titleize) %>
+        <br>
+      <% end %>
       </div>
-  <% end %>
+    </div>
+<% end %>
+  </div>
 
   <a id="let-there-be-drinks" class="button text-uppercase" href="#">Let There Be Drinks!</a>
 </div>

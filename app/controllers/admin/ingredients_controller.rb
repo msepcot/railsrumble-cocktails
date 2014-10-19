@@ -36,6 +36,6 @@ private
   def ingredients
     @ingredients ||= Ingredient.order(:name).page(params[:page])
   end
-  helper_method :ingredients
 
+  helper_method :ingredients
 end

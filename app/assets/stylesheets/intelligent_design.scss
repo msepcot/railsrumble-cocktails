@@ -6,6 +6,20 @@ h4 {
   cursor: pointer;
 }
 
+.group {
+  h4 {
+    background: $gray-lighter;
+    margin-bottom: 0;
+    padding: 1em;
+  }
+
+  .ingredients {
+    display: none;
+    border: 1px solid $gray-lighter;
+    padding: 1em;
+  }
+}
+
 .drink-info {
   background: $gray-lighter;
   display: none;
