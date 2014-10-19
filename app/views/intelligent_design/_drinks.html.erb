@@ -1,5 +1,4 @@
 <% drinks.each do |drink| %>
-  <% display_hash = drink.attributes.except('id', 'image', 'name', 'created_at', 'updated_at', 'ingredient_id_array') %>
 
 <div class="col-xs-6 col-md-4">
   <!-- NOTE: Drink names apepar to already all be titleized. However putting this here to ensure just-in-case. -->
@@ -10,11 +9,14 @@
     <img src="<%= drink[:image] %>" alt="<%= drink[:name] %>">
     <% end %>
 
-    <% display_hash.each do |key, value| %>
-      <% next unless value %>
-      <h5><%= "#{key.titleize}" %></h5>
-      <p><%= "#{value}" %></p>
-    <% end %>
+    <h3>Ingredients</h3>
+    <ul>
+      <% drink.recipes.each do |recipe| %>
+        <li><%= recipe.ingredient.name %></li>
+      <% end %>
+    </ul>
+
+    <h4>Full recipe</h4>
   </div>
 </div>
 
