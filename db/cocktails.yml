@@ -2272,7 +2272,7 @@
     :group: Brandy
   - :amount: 1
     :name: strawberry
-    :group: Strawberry
+    :group: Fruit
   - :amount: 1 tsp
     :name: sugar
     :group: Pantry Item
