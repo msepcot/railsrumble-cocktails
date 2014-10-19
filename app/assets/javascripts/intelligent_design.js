@@ -13,9 +13,9 @@ IntelligentDesign.prototype.concoct = function () {
   success = function (data) {
     this.showDrinks(data);
     $('.alert').addClass('hidden');
-  };
+  }.bind(this);
 
-  fail = function (jqXHR, textStatus, errorThrown) {
+  error = function (jqXHR, textStatus, errorThrown) {
     var $alert = $('.alert');
 
     $alert.children('h4').text('There was an error!');
@@ -25,7 +25,14 @@ IntelligentDesign.prototype.concoct = function () {
     throw new Error(errorThrown);
   };
 
-  $.getJSON('/godmode', { ingredients: ingredients }, success).fail(fail)
+  $.ajax({
+    url: '/godmode',
+    type: 'POST',
+    data: { ingredients: ingredients },
+    dataType: 'json',
+    success: success,
+    error: error
+  });
 }
 
 IntelligentDesign.prototype.showDrinks = function (drinks) {
