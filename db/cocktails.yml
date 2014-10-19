@@ -319,7 +319,7 @@
     :group: Vodka
   - :amount: 1 part (15 ml)
     :name: Apple schnapps
-    :group: Apple Schnapps
+    :group: Fruit liqueur
   - :amount: 1 part (15 ml)
     :name: Cointreau
     :group: Fruit liqueur
@@ -385,7 +385,7 @@
     :group: Rum
   - :amount: 1 part (15 ml)
     :name: Apple schnapps
-    :group: Apple Schnapps
+    :group: Fruit liqueur
   - :amount: 1 part (15 ml)
     :name: Cointreau
     :group: Fruit liqueur
@@ -2272,7 +2272,7 @@
     :group: Brandy
   - :amount: 1
     :name: strawberry
-    :group: Strawberry
+    :group: Fruit
   - :amount: 1 tsp
     :name: sugar
     :group: Pantry Item
