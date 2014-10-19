@@ -4,13 +4,13 @@
 function IntelligentDesign() {}
 
 IntelligentDesign.prototype.concoct = function () {
-  var selectedIngredients = $('input:checked'),
+  var selectedIngredients = $.map($('input:checked'), function (ing) { return $(ing).val(); }),
       pageContext         = this;
 
   $.ajax({
     url: '/godmode',
     type: 'POST',
-    data: { ingredients : $.map(selectedIngredients, function (ing) { return $(ing).val(); }) },
+    data: { ingredients: selectedIngredients },
     dataType: 'json',
     success: function (data) { pageContext.showDrinks(data); },
     error: function (jqXHR, textStatus, errorThrown) { throw new Error(errorThrown); }
@@ -40,6 +40,6 @@ $(function () {
   var iDesign = new IntelligentDesign();
 
   $('#let-there-be-drinks').on('click', function () {
-      iDesign.concoct();
+    iDesign.concoct();
   });
 });
