@@ -3,7 +3,7 @@
   :ingredients:
   - :amount: 6 oz
     :name: Ice
-    :group:
+    :group: Pantry Item
   - :amount: as needed
     :name: Tequila
     :group: Tequila
@@ -244,7 +244,7 @@
     :group: Coffee Liqueur
   - :amount: 1 part (2 cl)
     :name: peppermint schnapps
-    :group:
+    :group: Other liqueur
   - :amount: 1 part (2 cl)
     :name: Orange Cognac
     :group: Brandy
@@ -319,7 +319,7 @@
     :group: Vodka
   - :amount: 1 part (15 ml)
     :name: Apple schnapps
-    :group:
+    :group: Apple Schnapps
   - :amount: 1 part (15 ml)
     :name: Cointreau
     :group: Fruit liqueur
@@ -373,7 +373,7 @@
     :group: Vodka
   - :amount: 2 parts (30 ml)
     :name: Apple pucker
-    :group:
+    :group: Fruit liqueur
   :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -385,7 +385,7 @@
     :group: Rum
   - :amount: 1 part (15 ml)
     :name: Apple schnapps
-    :group:
+    :group: Apple Schnapps
   - :amount: 1 part (15 ml)
     :name: Cointreau
     :group: Fruit liqueur
@@ -439,7 +439,7 @@
     :group: Rum
   - :amount: 2 parts (30 ml)
     :name: Apple pucker
-    :group:
+    :group: Fruit liqueur
   :preparation: Mix in a shaker, then pour into a chilled glass. Garnish and serve.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -448,13 +448,13 @@
   :ingredients:
   - :amount: 1 part (3 cl)
     :name: Campari
-    :group:
+    :group: Other liqueur
   - :amount: 1 part (3 cl)
     :name: red vermouth
-    :group:
+    :group: wine
   - :amount: splash
     :name: soda water
-    :group:
+    :group: Miscellaneous Beverage
   :preparation: Pour the Campari and vermouth over ice into glass, add a splash of soda water and garnish with half orange slice.
   :served: On the rocks; poured over ice
   :drinkware: Old Fashioned glass
@@ -463,13 +463,13 @@
   :ingredients:
   - :amount: 3 oz (89 ml)
     :name: whiskey
-    :group:
+    :group: Whiskey liqueur
   - :amount: 1
     :name: raw egg
-    :group:
+    :group: Pantry Item
   - :amount: taste
     :name: Tabasco sauce
-    :group:
+    :group: Pantry Item
   :preparation: Crack an egg into a tall glass, leaving the yolk unbroken. Pour in whiskey. Add Tabasco to taste, or serve on the side.
   :served: Straight up
   :drinkware: Highball glass
@@ -480,10 +480,10 @@
     :group: Vodka
   - :amount: 1
     :name: raw egg
-    :group:
+    :group: Pantry Item
   - :amount: taste
     :name: Tabasco sauce
-    :group:
+    :group: Pantry Item
   :preparation: Crack an egg into a tall glass, leaving the yolk unbroken. Pour in vodka. Add Tabasco to taste, or serve on the side.
   :served: Straight up
   :drinkware: Highball glass
@@ -497,21 +497,21 @@
     :group: Brandy
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation: Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.
   :served: On the rocks; poured over ice
   :drinkware: Old Fashioned glass
 - :name: Godfather
   :ingredients:
   - :amount: 1 part (3.5 cl)
-    :name: liqueur
-    :group:
+    :name: Amaretto
+    :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
-    :name: Scotch
-    :group:
+    :name: Scotch whisky
+    :group: Whisky
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation: Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.
   :served: On the rocks; poured over ice
   :drinkware: Old Fashioned glass
@@ -525,7 +525,7 @@
     :group: Vodka
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation:
 - :name: Godchild
   :ingredients:
@@ -534,10 +534,10 @@
     :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Cream
-    :group:
+    :group: Pantry Item
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation:
 - :name: Toasted Almond
   :ingredients:
@@ -549,10 +549,10 @@
     :group: Coffee liqueur
   - :amount: 1 part (3.5 cl)
     :name: Cream
-    :group:
+    :group: Pantry Item
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation:
 - :name: Bocce Ball
   :ingredients:
@@ -561,13 +561,13 @@
     :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Orange juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 part (3.5 cl)
     :name: Club soda
-    :group:
+    :group: Miscellaneous Beverage
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation:
 - :name: Cuban Breeze
   :ingredients:
@@ -582,7 +582,7 @@
     :group: Fruit Juice
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation:
 - :name: Lounge Lizard
   :ingredients:
@@ -590,14 +590,14 @@
     :name: Amaretto liqueur
     :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
-    :name: Dark Run
-    :group:
+    :name: Dark Rum
+    :group: Rum
   - :amount: 1 part (3.5 cl)
     :name: Cola
-    :group:
+    :group: Miscellaneous Beverage
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation:
 - :name: Amaretto Sour
   :ingredients:
@@ -606,7 +606,7 @@
     :group: Nut-flavored liqueur
   - :amount: 1 part (3.5 cl)
     :name: Sweet and Sour Mix
-    :group:
+    :group: Syrup
   :preparation:
 - :name: Amaretto Sour variant
   :ingredients:
@@ -615,19 +615,19 @@
     :group: Nut-flavored liqueur
   - :amount: 1
     :name: egg white
-    :group:
+    :group: Pantry Item
   - :amount: 1 part (3.5 cl)
     :name: cask strength bourbon
-    :group:
+    :group: Whisky liqueur
   - :amount: 1 part (3.5 cl)
     :name: lemon juice
     :group: Fruit Juice
   - :amount: 1 part (3.5 cl)
     :name: simple syrup
-    :group:
+    :group: Syrup
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation: Shake and pour over ice
 - :name: Alabama Slammer
   :ingredients:
@@ -636,13 +636,13 @@
     :group: Nut-flavored liqueur
   - :amount: 1 part (3/4 oz)
     :name: Southern Comfort
-    :group:
+    :group: Other liqueur
   - :amount: 1 part (3/4 oz)
     :name: Sloe Gin
-    :group:
+    :group: Gin
   - :amount: fill glass
     :name: orange juice
-    :group:
+    :group: Fruit Juice
   :preparation:
   :served: On the rocks; poured over ice
   :drinkware: Collins glass
@@ -650,7 +650,7 @@
   :ingredients:
   - :amount: 20 cl
     :name: Orange juice
-    :group:
+    :group: Fruit Juice
   - :amount: 5 cl
     :name: Gin
     :group: Gin
@@ -659,10 +659,10 @@
     :group: Vodka
   - :amount: 70 cl
     :name: Cava
-    :group:
+    :group: Wine
   - :amount: pinch
     :name: Sugar
-    :group:
+    :group: Pantry Item
   :preparation: Squeeze a glass of orange juice into a pitcher. Add a bottle of semi-dry cava. Add a glass of vodka and gin. Add sugar according to your taste. Place in the refrigerator.
 - :name: Agent Orange
   :ingredients:
@@ -671,7 +671,7 @@
     :group: Vodka
   - :amount: 3 parts (15 cl)
     :name: carrot juice
-    :group:
+    :group: Miscellaneous Beverage
   :preparation: Mix in an old fashioned glass with ice and serve.
   :served: On the rocks; poured over ice
   :drinkware: Old Fashioned glass
@@ -682,25 +682,25 @@
     :group: Gin
   - :amount: 3/4 ounce (1/6 gill, 2 cl)
     :name: Kina Lillet
-    :group:
+    :group: Wine
   - :amount: 3/4 ounce (1/6 gill, 2 cl)
     :name: light creme de cacao
-    :group:
+    :group: Crème liqueur
   - :amount: 3/4 ounce (1/6 gill, 2 cl)
     :name: fresh lemon juice
-    :group:
+    :group: Fruit Juice
   :preparation: Shake in an iced cocktail shaker, and strain into a cocktail glass. Garnish with a lemon twist.
 - :name: Seven and Seven
   :ingredients:
   - :amount: 1 shot
     :name: Seagram's Seven Crown whiskey
-    :group:
+    :group: Whiskey liqueur
   - :amount: 6 oz
     :name: 7 Up
-    :group:
+    :group: Miscellaneous Beverage
   - :amount:
     :name: Ice
-    :group:
+    :group: Pantry Item
   :preparation: Pour whiskey into Collins glass filled with ice. Fill to desired level with 7 Up. Stir lightly.
   :served: On the rocks; poured over ice
   :drinkware: Collins glass
@@ -708,10 +708,10 @@
   :ingredients:
   - :amount: 2 parts (10 cl)
     :name: dry sparkling wine (Prosecco)
-    :group:
+    :group: Wine
   - :amount: 1 part (5 cl)
     :name: fresh peach purée
-    :group:
+    :group: Fruit
   :preparation: Pour peach puree into chilled flute, add gently sparkling wine. Stir gently.
   :served: Straight up
   :drinkware: Champagne flute
@@ -722,13 +722,13 @@
     :group: Gin
   - :amount: 1 part
     :name: green Chartreuse
-    :group:
+    :group: Herbal Liqueur
   - :amount: 1 part
     :name: vermouth
-    :group:
+    :group: wine
   - :amount: dash
     :name: orange bitters
-    :group:
+    :group: Bitters
   :preparation: Stir in mixing glass with ice and strain
   :served: Straight up
   :drinkware: Cocktail glass
@@ -737,10 +737,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Pale ale or Lager
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Stout or Porter
-    :group:
+    :group: Beer
   :preparation: To prepare a Black and Tan, fill a glass halfway with pale ale then add the stout. The top layer is best poured slowly over an upside-down tablespoon placed over the glass to avoid splashing and mixing the layers. A specially designed black-and-tan spoon is bent in the middle so that it can balance on the edge of the pint-glass for easier pouring.
   :served: Straight up
   :drinkware: Pint glass
@@ -748,10 +748,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Honey Brown
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -759,10 +759,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: light colored beer
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -770,10 +770,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Blue Moon Belgian White
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -781,10 +781,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Samuel Adams Boston Lager
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -792,10 +792,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Samuel Adams Cherry Wheat
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -803,10 +803,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: pumpkin ale
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -814,10 +814,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Sapporo
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -825,10 +825,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness Stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Smithwick's Irish Ale
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -836,10 +836,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Killians Irish Red Lager
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -847,10 +847,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Tetley's
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -858,10 +858,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Boddington's Ale
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -869,10 +869,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Sweetheart Stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: light ale
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -880,10 +880,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Yuengling Lager
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -891,10 +891,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness Stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: hard cider
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -902,10 +902,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness draught
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Christmas Ale
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -913,10 +913,10 @@
   :ingredients:
   - :amount: 1 part
     :name: chocolate stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: raspberry or cherry lambic
-    :group:
+    :group: Pantry Item
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -924,10 +924,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Red Stripe
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -935,10 +935,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Hoegaarden
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -946,10 +946,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Beamish
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: McEwan's
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -957,10 +957,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Budweiser
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -968,10 +968,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Molson Canadian
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -979,10 +979,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Newcastle Brown Ale
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -990,10 +990,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Mexican beer
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1001,10 +1001,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: New Belgium Fat Tire
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1012,10 +1012,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Irish stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Irish red ale
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1023,10 +1023,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Great White
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1034,10 +1034,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Blue Moon
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1045,10 +1045,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: St Pauli Girl
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1056,10 +1056,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Tetley's
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Starbucks Coffee Liqueur
     :group: Coffee Liqueur
@@ -1070,10 +1070,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Young's Double Chocolate Stout
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Pete's Wicked Strawberry Blonde
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1081,10 +1081,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Heinken
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Hobgoblin
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1092,10 +1092,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Sierra Nevada Celebration Ale
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Brooklyn Brewery Black Chocolate Stout
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1103,10 +1103,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Half Anchor Steam Beer
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1114,10 +1114,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Magic Hat #9
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1125,10 +1125,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Bush Light Mixed Seasonally
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1136,10 +1136,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Raspberry Cider Jack
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1147,10 +1147,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Champagne
-    :group:
+    :group: Wine
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1158,10 +1158,10 @@
   :ingredients:
   - :amount: 1 part
     :name: 3 Floyd's Gumballhead
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Guinness
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1169,10 +1169,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Baltika 6 Porter
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Baltika 9 Extra Lager
-    :group:
+    :group: Beer
   :preparation:
   :served: Straight up
   :drinkware: Pint glass
@@ -1182,8 +1182,8 @@
     :name: Vodka
     :group: Vodka
   - :amount: 2 parts (2 cl)
-    :name: Coffe liqueur
-    :group:
+    :name: Coffee liqueur
+    :group: Coffee Liqueur
   :preparation: Pour the ingredients into an old fashioned glass filled with ice cubes. Stir gently.
   :served: On the rocks; poured over ice
   :drinkware: Old Fashioned glass
@@ -1192,10 +1192,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Beer
-    :group:
+    :group: Beer
   - :amount: 1 part
     :name: Champagne
-    :group:
+    :group: Wine
   :preparation: fill a tall champagne flute, halfway with chilled sparkling wine and float stout beer on top of the wine
   :served: Straight up
   :drinkware: Champagne flute
@@ -1207,13 +1207,13 @@
     :group: Gin
   - :amount: 1 part
     :name: dry vermouth
-    :group:
+    :group: wine
   - :amount: 1 part
     :name: sweet vermouth
-    :group:
+    :group: wine
   - :amount:
     :name: strawberry coulis
-    :group:
+    :group: Syrup
   :preparation: Shake alcoholic ingredients and serve over crushed ice with strawberry coulis and strawberries garnish
   :served: with ice
   :drinkware: cocktail, tumbler or flute
@@ -1225,7 +1225,7 @@
     :group: Vodka
   - :amount: 6 parts (9 cl)
     :name: Tomato juice
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: 1 part (1.5 cl)
     :name: Lemon juice
     :group: Fruit Juice
@@ -1246,7 +1246,7 @@
     :group: Nut-flavored liqueur
   - :amount: to top
     :name: whipped cream
-    :group:
+    :group: Pantry Item
   :preparation: Pour 1/2 oz Baileys and 1/2 oz Kahlúa in shot glass. Then slowly pour in 1/4 oz amaretto (creating a layered look) and top with whipped cream. Serve.
   :served:
   :drinkware: Shot glass
@@ -1267,7 +1267,7 @@
     :group: Fruit Juice
   - :amount: 1 ounce
     :name: sweet and sour
-    :group:
+    :group: Syrup
   :preparation: Combine all ingredients with ice, stir or shake, then pour into a hurricane glass with the ice. For garnish score pineapple or orange slice with a knife and inert onto rim of glass; optionally use toothpick or cocktail umbrella to spear maraschino cherry through center and attach to top of fruit slice; otherwise float cherry on top of ice.
   :served: On the rocks; poured over ice
   :drinkware: Hurricane glass
@@ -1282,7 +1282,7 @@
     :group: Fruit liqueur
   - :amount: 4 parts
     :name: Lemonade
-    :group:
+    :group: Miscellaneous Beverage
   :preparation: pour vodka and blue curacao in a shaker with ice, shake well and strain into ice filled highball glass, top with lemonade, garnish and serve.
   :served: On the rocks; poured over ice
   :drinkware: Highball glass
@@ -1297,7 +1297,7 @@
     :group: Nut-flavored liqueur
   - :amount: to taste
     :name: Orange pekoe tea
-    :group:
+    :group: Miscellaneous Beverage
   :preparation: Add both liqueur to the snifter and then fill with hot tea to taste. Swaddle the brandy snifter in serviettes or a cloth to protect the hands. Some suggest a sugared rim, or adding sugar to the tea, or a lemon garnish.
   :served:
   :drinkware:
@@ -1306,13 +1306,13 @@
   :ingredients:
   - :amount: 1 part
     :name: Scotch whisky
-    :group:
+    :group: Whisky liqueur
   - :amount: 1 part
     :name: red vermouth
-    :group:
+    :group: wine
   - :amount: 3 drops
     :name: Bénédictine
-    :group:
+    :group: Herbal liqueur
   :preparation:
   :served:
   :drinkware:
@@ -1321,10 +1321,10 @@
   :ingredients:
   - :amount: 1 shot
     :name: whiskey
-    :group:
+    :group: Whiskey liqueur
   - :amount: 1 glass
     :name: beer
-    :group:
+    :group: Beer
   :preparation: mix and drink
   :served:
   :drinkware:
@@ -1333,10 +1333,10 @@
   :ingredients:
   - :amount: 1 part (1/2 pint)
     :name: draft mild
-    :group:
+    :group: Beer
   - :amount: 1 part (1/2 pint)
     :name: bottled brown ale
-    :group:
+    :group: Beer
   :preparation: mix and drink
   :served:
   :drinkware:
@@ -1345,13 +1345,13 @@
   :ingredients:
   - :amount: 9 parts
     :name: Bourbon
-    :group:
+    :group: Whisky liqueur
   - :amount: 16 parts
     :name: Champagne
-    :group:
+    :group: Wine
   - :amount: 3 dashes
     :name: Angostura bitters
-    :group:
+    :group: Bitters
   :preparation: Build over ice; stir. Garnish with twist of lemon peel.
   :served: On the rocks; poured over ice
   :drinkware: Highball glass
@@ -1363,10 +1363,10 @@
     :group: Brandy
   - :amount: 1 part (3 cl)
     :name: Crème de cacao
-    :group:
+    :group: Crème liqueur
   - :amount: 1 part (3 cl)
     :name: Fresh cream
-    :group:
+    :group: Pantry Item
   :preparation: Shake and strain into a chilled cocktail glass. Sprinkle with fresh ground nutmeg.
   :served: straight up
   :drinkware: cocktail glass
@@ -1375,16 +1375,16 @@
   :ingredients:
   - :amount: 2 parts (5 cl)
     :name: Cyprus brandy
-    :group:
+    :group: Brandy
   - :amount: 1 part (2.5 cl)
     :name: Lemon squash
-    :group:
+    :group: Syrup
   - :amount: 2-4 drops
     :name: bitters
-    :group:
+    :group: Bitters
   - :amount: top
     :name: carbonated water
-    :group:
+    :group: Miscellaneous Beverage
   :preparation: Stir into glass over ice, garnish and serve.
   :served: on the rocks; poured over ice
   :drinkware: Highball glass
@@ -1399,7 +1399,7 @@
     :group: Vodka
   - :amount: 1 part
     :name: Orange juice
-    :group:
+    :group: Fruit Juice
   :preparation: Stir together and serve over ice.
   :served: On the rocks; poured over ice
   :drinkware: Highball glass
@@ -1411,13 +1411,13 @@
     :group: Gin
   - :amount: 3 parts (1.5 cl)
     :name: sweet red vermouth
-    :group:
+    :group: wine
   - :amount: 2 parts (1 cl)
     :name: dry vermouth
-    :group:
+    :group: wine
   - :amount: 3 parts (1.5 cl)
     :name: Orange juice
-    :group:
+    :group: Fruit Juice
   :preparation: Pour into cocktail shaker all ingredients with ice cubes, shake well. Strain in chilled cocktail glass.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -1426,19 +1426,19 @@
   :ingredients:
   - :amount: 2 oz
     :name: Canadian whisky
-    :group:
+    :group: Whisky
   - :amount: 1 oz
     :name: dry vermouth
-    :group:
+    :group: wine
   - :amount: 1/4 oz
     :name: Maraschino liqueur
-    :group:
+    :group: Pantry Item
   - :amount: 1/4 oz
     :name: Angostura bitters
-    :group:
+    :group: Bitters
   - :amount: 1
     :name: Maraschino cherry
-    :group:
+    :group: Fruit
   :preparation: Stirred over ice, strained into a chilled glass, garnished, and served straight up.
   :served: Straight up
   :drinkware: Cocktail glass
@@ -1447,10 +1447,10 @@
   :ingredients:
   - :amount: 2 parts (10 cl)
     :name: Orange juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 part (5 cl)
     :name: Champagne
-    :group:
+    :group: Wine
   :preparation: Pour the orange juice into glass and top up champagne. Stir gently, garnish and serve.
   :served: Straight up
   :drinkware: Champagne flute
@@ -1459,19 +1459,19 @@
   :ingredients:
   - :amount: 2 parts (2 oz)
     :name: rum
-    :group:
+    :group: Rum
   - :amount: 1 part (1 oz)
     :name: water
-    :group:
+    :group: Pantry Item
   - :amount: 2
     :name: sugar cubes
-    :group:
+    :group: Pantry Item
   - :amount: 1/4 tsp
     :name: cinnamon
-    :group:
+    :group: Pantry Item
   - :amount: 1/4 teaspoon
     :name: nutmeg
-    :group:
+    :group: Pantry Item
   :preparation: Mix and garnish.
   :served: Straight up
   :drinkware: Old Fashioned glass
@@ -1486,16 +1486,16 @@
     :group: Coffee liqueur
   - :amount: 1 part (1 oz)
     :name: Dark Crème de Cacao
-    :group:
+    :group: Crème liqueur
   - :amount: 2 parts (2 oz)
     :name: Cream of Coconut
-    :group:
+    :group: Pantry Item
   - :amount: 2 parts (2 oz)
     :name: milk
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: 1 cup
     :name: ice
-    :group:
+    :group: Pantry Item
   :preparation: Blend all the ingredients together in a blender, including the ice, and then strain into a hurrican glass. Place cherry on top of the drink as a garnish and serve. Whipped cream can also be added as a garnish to the top of the drink before the cherry.
   :served: Straight up
   :drinkware: Hurricane Glass
@@ -1516,28 +1516,28 @@
   :ingredients:
   - :amount: 6 oz
     :name: Clamato juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1-1 1/2 oz
     :name: vodka
     :group: Vodka
   - :amount: 2 dashes
     :name: Hot Sauce
-    :group:
+    :group: Pantry Item
   - :amount: 4 dashes
     :name: Worcestershire sauce
-    :group:
+    :group: Pantry Item
   - :amount:
     :name: Celery Salt
-    :group:
+    :group: Pantry Item
   - :amount:
     :name: Ground Pepper
-    :group:
+    :group: Pantry Item
   - :amount: 1
     :name: Lime Wedge
-    :group:
+    :group: Fruit
   - :amount: 1
     :name: Celery Stalk
-    :group:
+    :group: Pantry Item
   :preparation:
   :served: on the rocks
   :drinkware: Highball glass
@@ -1546,13 +1546,13 @@
   :ingredients:
   - :amount: 5 cl
     :name: Cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 4 wedges
     :name: Lime
-    :group:
+    :group: Fruit
   - :amount: 2 tsp
     :name: brown sugar
-    :group:
+    :group: Pantry Item
   :preparation: Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon). Fill the glass with crushed ice and add the Cachaça.
   :served: on the rocks; poured over ice
   :drinkware: Old Fashioned glass
@@ -1561,13 +1561,13 @@
   :ingredients:
   - :amount: 2 parts
     :name: cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: fruit juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 tbsp
     :name: sugar
-    :group:
+    :group: Pantry Item
   :preparation: Mix and pour into chilled glass.
   :served: on the rocks; poured over ice
   :drinkware: Zombie glass
@@ -1576,13 +1576,13 @@
   :ingredients:
   - :amount: 1 part
     :name: cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: cashew juice
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: 1 slice
     :name: cashew
-    :group:
+    :group: Pantry Item
   :preparation: The slice is placed on the tongue and chased by the shot of cachaça. Or the two ingredients are mixed in a shot glass and served straight.
   :served: neat; undiluted and without ice
   :drinkware: shot glass
@@ -1591,19 +1591,19 @@
   :ingredients:
   - :amount: 1 part
     :name: cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: water
-    :group:
+    :group: Pantry Item
   - :amount: to taste
     :name: sugar
-    :group:
+    :group: Pantry Item
   - :amount: 2
     :name: orange peel
-    :group:
+    :group: Fruit
   - :amount: 1
     :name: lime peel
-    :group:
+    :group: Fruit
   :preparation: caramelize the sugar with the spices and peels, then add the liquids. Boil for a few minutes then serve hot.
   :served: hot
   :drinkware: mug
@@ -1612,16 +1612,16 @@
   :ingredients:
   - :amount: 2 part
     :name: cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 2 part
     :name: milk
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: 2 part
     :name: cocoa liqueur
-    :group:
+    :group: Cocoa Liqueur
   - :amount: 1 part
     :name: condensed milk
-    :group:
+    :group: Miscellaneous Beverage
   :preparation: mix the condensed milk and the milk until they blend together. Add cachaça and let it rest. Add cocoa licor when it's ready to serve
   :served: neat; undiluted and without ice
   :drinkware: mug
@@ -1630,22 +1630,22 @@
   :ingredients:
   - :amount: 2 parts (2 oz)
     :name: cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 1 slice
     :name: orange
-    :group:
+    :group: Fruit
   - :amount: 1 slice
     :name: lemon
-    :group:
+    :group: Fruit
   - :amount: 1 slice
     :name: lime
-    :group:
+    :group: Fruit
   - :amount: 1 part (1 oz)
     :name: guava juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 tbsp
     :name: sugar
-    :group:
+    :group: Pantry Item
   :preparation: In a mixing glass, mix sugar and fruit slices and press to juice fruit, add ice, guava juice and cachaça, mix again - pour into tall glass.
   :served: on the rocks
   :drinkware: zombie glass
@@ -1657,7 +1657,7 @@
     :group: Vodka
   - :amount: 1 part
     :name: cranberry juice
-    :group:
+    :group: Fruit Juice
   :preparation:
   :served: on the rocks; poured over ice
   :drinkware: highball glass
@@ -1666,13 +1666,13 @@
   :ingredients:
   - :amount: 1 part
     :name: bourbon whiskey
-    :group:
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: ginger ale
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: twist
     :name: lemon
-    :group:
+    :group: Pantry Item
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1684,7 +1684,7 @@
     :group: Rum
   - :amount: 1 part
     :name: malibu rum
-    :group:
+    :group: Rum
   - :amount: 13 parts
     :name: pineapple juice
     :group: Fruit Juice
@@ -1696,13 +1696,13 @@
   :ingredients:
   - :amount: 1 part
     :name: white rum
-    :group:
+    :group: Rum
   - :amount: 1 part
     :name: cola
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: twist
     :name: lime
-    :group:
+    :group: Pantry Item
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1714,7 +1714,7 @@
     :group: Rum
   - :amount: 1 part
     :name: ginger beer
-    :group:
+    :group: Beer
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1723,10 +1723,10 @@
   :ingredients:
   - :amount: 1 part
     :name: canadian whisky
-    :group:
+    :group: Whisky
   - :amount: 1 part
     :name: ginger ale
-    :group:
+    :group: Miscellaneous Beverage
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1738,7 +1738,7 @@
     :group: Gin
   - :amount: 1 part
     :name: tonic water
-    :group:
+    :group: Miscellaneous Beverage
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1750,7 +1750,7 @@
     :group: Gin
   - :amount: 1 part
     :name: grapefruit juice
-    :group:
+    :group: Fruit Juice
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1762,7 +1762,7 @@
     :group: Vodka
   - :amount: 1 part
     :name: grapefruit juice
-    :group:
+    :group: Fruit Juice
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1771,13 +1771,13 @@
   :ingredients:
   - :amount: 1 part
     :name: Maker's Mark
-    :group:
+    :group: Whisky liqueur
   - :amount: 1 part
     :name: Orange Crush
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: crushed
     :name: ice
-    :group:
+    :group: Pantry Item
   :preparation: Mix and pour over lots of crushed ice.
   :served:
   :drinkware: highball glass
@@ -1786,10 +1786,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Jack Daniel's
-    :group:
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: Coca-Cola
-    :group:
+    :group: Miscellaneous Beverage
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1798,10 +1798,10 @@
   :ingredients:
   - :amount: 1 part
     :name: rum
-    :group:
+    :group: Pantry Item
   - :amount: 1 part
     :name: orange juice
-    :group:
+    :group: Fruit Juice
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1813,7 +1813,7 @@
     :group: Gin
   - :amount: 1 part
     :name: grapefruit juice
-    :group:
+    :group: Fruit Juice
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1822,13 +1822,13 @@
   :ingredients:
   - :amount: 1 part
     :name: Canadian Whisky
-    :group:
+    :group: Whisky
   - :amount: 1 part
     :name: Ginger ale
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: 1 part
     :name: cola
-    :group:
+    :group: Miscellaneous Beverage
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1840,10 +1840,10 @@
     :group: Vodka
   - :amount: 1 part
     :name: ginger beer
-    :group:
+    :group: Beer
   - :amount: squeezed
     :name: lime
-    :group:
+    :group: Pantry Item
   :preparation:
   :served:
   :drinkware: copper mug
@@ -1851,14 +1851,14 @@
 - :name: Pimm's Cup
   :ingredients:
   - :amount: 1 part
-    :name: Pimm's No.1 Cup
-    :group:
+    :name: Pimm's No. 1 Cup
+    :group: Gin
   - :amount: 1 part
     :name: Ginger Ale
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: 1 part
     :name: Lemon-Lime Soda
-    :group:
+    :group: Miscellaneous Beverage
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1867,10 +1867,10 @@
   :ingredients:
   - :amount: 1 part
     :name: Pisco
-    :group:
+    :group: Brandy
   - :amount: 1 part
     :name: Cola
-    :group:
+    :group: Miscellaneous Beverage
   :preparation:
   :served: poured over ice
   :drinkware: highball glass
@@ -1879,10 +1879,10 @@
   :ingredients:
   - :amount: 1 part
     :name: rum
-    :group:
+    :group: Rum
   - :amount: 1 part
     :name: Coca-Cola
-    :group:
+    :group: Miscellaneous Beverage
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1894,7 +1894,7 @@
     :group: Vodka
   - :amount: 1 part
     :name: Orange juice
-    :group:
+    :group: Fruit Juice
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1903,13 +1903,13 @@
   :ingredients:
   - :amount: 1 part
     :name: Jack Daniel's Tennessee Whiskey
-    :group:
+    :group: Whiskey liqueur
   - :amount: 1 part
     :name: Sweetened Tea
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: squeeze
     :name: lemon
-    :group:
+    :group: Pantry Item
   :preparation:
   :served: poured over ice
   :drinkware: highball glass
@@ -1921,7 +1921,7 @@
     :group: Vodka
   - :amount: 1 part
     :name: soda
-    :group:
+    :group: Miscellaneous Beverage
   :preparation:
   :served:
   :drinkware: highball glass
@@ -1936,7 +1936,7 @@
     :group: Fruit Juice
   - :amount: 5 parts
     :name: cola
-    :group:
+    :group: Miscellaneous Beverage
   :preparation: Build in a highball glass.
   :served: On ice
   :drinkware: highball glass
@@ -1948,7 +1948,7 @@
     :group: Cream liqueur
   - :amount: 1 part
     :name: Hot Damn Cinnamon Schnapps
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: Frangelico
     :group: Nut-flavored liqueur
@@ -1960,16 +1960,16 @@
   :ingredients:
   - :amount: 9 cl
     :name: Champagne
-    :group:
+    :group: Wine
   - :amount: 1 cl
     :name: Cognac
     :group: Brandy
   - :amount: 2 dashes
     :name: Angostura bitters
-    :group:
+    :group: Bitters
   - :amount: 1 cube
     :name: sugar
-    :group:
+    :group: Pantry Item
   :preparation:
   :served: straight up
   :drinkware: champagne flute
@@ -1978,16 +1978,16 @@
   :ingredients:
   - :amount: 1 part
     :name: Brandy
-    :group:
+    :group: Brandy
   - :amount: 1 part
     :name: Triple sec
     :group: Fruit liqueur
   - :amount: 1 part
     :name: Bitters
-    :group:
+    :group: Bitters
   - :amount: 1 part (optional)
     :name: Champagne
-    :group:
+    :group: Wine
   :preparation: Shake or stir with ice.
   :served: on the rocks; poured over ice
   :drinkware: old fashioned glass
@@ -2005,7 +2005,7 @@
     :group: Fruit Juice
   - :amount: 1/4 oz
     :name: creme de cassis
-    :group:
+    :group: Berry liqueur
   :preparation: Pour the tequila and unfiltered apple cider into glass over ice. Add the lemon juice and creme de cassis and stir. Garnish and serve.
   :served: on the rocks; poured over ice
   :drinkware: Highball glass
@@ -2014,19 +2014,19 @@
   :ingredients:
   - :amount: 3 parts
     :name: brandy
-    :group:
+    :group: Brandy
   - :amount: 2 parts
     :name: yellow chartreuse
-    :group:
+    :group: Herbal Liqueur
   - :amount: 1 part
     :name: lillet
-    :group:
+    :group: Wine
   - :amount: 1 part
     :name: orange juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 part
     :name: dubonnet
-    :group:
+    :group: Wine
   :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
   :served: straight up
   :drinkware: cocktail glass
@@ -2035,13 +2035,13 @@
   :ingredients:
   - :amount: 3 parts
     :name: scotch whisky
-    :group:
+    :group: Whisky liqueur
   - :amount: 1 part
     :name: lime juice
     :group: Fruit Juice
   - :amount: 1 part
     :name: sweet vermouth
-    :group:
+    :group: wine
   - :amount: 1 part
     :name: cointreau
     :group: Fruit liqueur
@@ -2053,31 +2053,31 @@
   :ingredients:
   - :amount: 1 part
     :name: Elixir d'Anu
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: Cherry Brandy
-    :group:
+    :group: Brandy
   - :amount: 1 part
     :name: Noilly Prat
-    :group:
+    :group: Wine
   - :amount: 1 part
     :name: Schlichte
-    :group:
+    :group: Gin
   - :amount: 1 part
     :name: Sloe gin
-    :group:
+    :group: Gin
   - :amount: 1 part
     :name: orange curacao
-    :group:
+    :group: Fruit liqueur
   - :amount: 1 part
     :name: dry while wine
-    :group:
+    :group: Wine
   - :amount: 1 part
     :name: coffee liqueur
     :group: Coffee Liqueur
   - :amount: 1 part
     :name: carpano
-    :group:
+    :group: Wine
   :preparation:  Shake ingredients together with ice, and strain into a glass.
   :served: straight up
   :drinkware: cocktail glass
@@ -2086,13 +2086,13 @@
   :ingredients:
   - :amount: 3 parts
     :name: brandy
-    :group:
+    :group: Brandy
   - :amount: 2 parts
     :name: lillet
-    :group:
+    :group: Wine
   - :amount: 1 part
     :name: yellow chartreuse
-    :group:
+    :group: Herbal Liqueur
   :preparation: Stir together with ice, strain into glass, garnish with a twisted lemon rind
   :served: straight up
   :drinkware: cocktail glass
@@ -2101,7 +2101,7 @@
   :ingredients:
   - :amount: 3 parts
     :name: orange juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 part
     :name: lime juice
     :group: Fruit Juice
@@ -2115,14 +2115,14 @@
 - :name: Kensington Court Special
   :ingredients:
   - :amount: 1 part
-    :name: passion fruite juice
-    :group:
+    :name: passion fruit juice
+    :group: Fruit Juice
   - :amount: 1 part
     :name: lime juice
     :group: Fruit Juice
   - :amount: 1 part
     :name: apricot brandy
-    :group:
+    :group: Brandy
   - :amount: 3 parts
     :name: vodka
     :group: Vodka
@@ -2134,7 +2134,7 @@
   :ingredients:
   - :amount: 1 part
     :name: southern comfort
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: vodka
     :group: Vodka
@@ -2152,7 +2152,7 @@
     :group: Gin
   - :amount: 1 part
     :name: lillet
-    :group:
+    :group: Wine
   - :amount: 1 part
     :name: grand marnier
     :group: Fruit liqueur
@@ -2164,16 +2164,16 @@
   :ingredients:
   - :amount: 2 parts
     :name: bourbon whisky
-    :group:
+    :group: Whisky liqueur
   - :amount: 2 parts
     :name: applejack
-    :group:
+    :group: Brandy
   - :amount: 2 parts
     :name: lemon juice
     :group: Fruit Juice
   - :amount: 1 part
     :name: campari
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: cointreau
     :group: Fruit liqueur
@@ -2185,13 +2185,13 @@
   :ingredients:
   - :amount: 1 part
     :name: grapefruit juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 part
     :name: grand marnier
     :group: Fruit liqueur
   - :amount: 2 dashes
     :name: rosewater
-    :group:
+    :group: Miscellaneous Beverage
   :preparation: Shake well, strain into wine glass and top up with champagne.
   :served: straight up
   :drinkware: cocktail glass
@@ -2206,13 +2206,13 @@
     :group: Fruit Juice
   - :amount: 1 part
     :name: orange juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 part
     :name: Sirop de Fraise or Strawberry Syrup
-    :group:
+    :group: Syrup
   - :amount: 1 dash
     :name: egg white
-    :group:
+    :group: Pantry Item
   :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
   :served: straight up
   :drinkware: cocktail glass
@@ -2221,13 +2221,13 @@
   :ingredients:
   - :amount: 1 part
     :name: bourbon whisky
-    :group:
+    :group: Whisky liqueur
   - :amount: 1 part
     :name: sloe gin
-    :group:
+    :group: Gin
   - :amount: 2 dashes
     :name: peach bitters
-    :group:
+    :group: Bitters
   :preparation: Stir and serve on the rocks, garnish.
   :served: on the rocks; poured over ice
   :drinkware: cocktail glass
@@ -2236,16 +2236,16 @@
   :ingredients:
   - :amount: 1 part
     :name: brandy
-    :group:
+    :group: Brandy
   - :amount: 1 part
     :name: lime juice
     :group: Fruit Juice
   - :amount: 2 parts
     :name: orange juice
-    :group:
+    :group: Fruit Juice
   - :amount: 2 parts
     :name: creme de peche liqueur
-    :group:
+    :group: Fruit Liqueur
   :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
   :served: straight up
   :drinkware: cocktail glass
@@ -2254,10 +2254,10 @@
   :ingredients:
   - :amount: 1 part
     :name: canadian whisky
-    :group:
+    :group: Whisky
   - :amount: 1 part
     :name: apple schnapps
-    :group:
+    :group: Fruit liqueur
   :preparation: Shake ingredients together. Serve straight or with one ice cube
   :served: straight up
   :drinkware: snifter
@@ -2269,13 +2269,13 @@
     :group: Fruit Juice
   - :amount: 1 part
     :name: cherry brandy
-    :group:
+    :group: Brandy
   - :amount: 1
     :name: strawberry
-    :group:
+    :group: Strawberry
   - :amount: 1 tsp
     :name: sugar
-    :group:
+    :group: Pantry Item
   :preparation: Blend and then pour into a champagne glass and fill with champagne.
   :served: straight up
   :drinkware: champagne flute
@@ -2290,16 +2290,16 @@
     :group: Fruit Juice
   - :amount: 1 part
     :name: Crème de Noyaux
-    :group:
+    :group: Crème liqueur
   - :amount: 1 part
     :name: Kümmel
-    :group:
+    :group: Herbal liqueur
   - :amount: dash
     :name: egg white
-    :group:
+    :group: Pantry Item
   - :amount: dash
-    :name: begetable extract
-    :group:
+    :name: vegetable extract
+    :group: Pantry Item
   :preparation: Shake ingredients together with ice, and strain into a cocktail glass.
   :served: straight up
   :drinkware: cocktail glass
@@ -2311,13 +2311,13 @@
     :group: Fruit Juice
   - :amount: 1 part
     :name: Fraise de Bois liqueur
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: passion fruit juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 part
     :name: peach brandy
-    :group:
+    :group: Brandy
   :preparation: Shake ingredients together with ice, and strain into a cocktail glass, and fill with champagne and garnish.
   :served: straight up
   :drinkware: champagne cocktail glass
@@ -2326,13 +2326,13 @@
   :ingredients:
   - :amount: 1/2
     :name: peach
-    :group:
+    :group: Fruit
   - :amount: 2
     :name: strawberries
-    :group:
+    :group: Fruit
   - :amount: 1 tsp
     :name: sugar
-    :group:
+    :group: Pantry Item
   :preparation: Liquidise, strain into a champagne glass and fill with champagne.
   :served: straight up
   :drinkware: champagne glass
@@ -2341,13 +2341,13 @@
   :ingredients:
   - :amount: 1 part
     :name: brandy
-    :group:
+    :group: Brandy
   - :amount: 1 part
     :name: fernet branca
-    :group:
+    :group: Wine
   - :amount: 1 part
     :name: white Crème de menthe
-    :group:
+    :group: Crème liqueur
   :preparation: Shake ingredients together with ice, and strain into a glass.
   :served: straight up
   :drinkware: cocktail glass
@@ -2359,10 +2359,10 @@
     :group: Gin
   - :amount: 2 parts
     :name: wolfschmidt
-    :group:
+    :group: Vodka
   - :amount: 2 parts
     :name: dry vermouth
-    :group:
+    :group: wine
   - :amount: 1 part
     :name: lemon juice
     :group: Fruit Juice
@@ -2374,13 +2374,13 @@
   :ingredients:
   - :amount: 50 ml
     :name: Cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 1/2 (4 wedges)
     :name: lime
-    :group:
+    :group: Pantry Item
   - :amount: 2 tsp
     :name: sugar
-    :group:
+    :group: Pantry Item
   :preparation: Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon). Fill the glass with crushed ice and add the Cachaça.
   :served: on the rocks; poured over ice
   :drinkware: old fashioned glass
@@ -2389,13 +2389,13 @@
   :ingredients:
   - :amount: 2 parts
     :name: Cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: fruit juice
-    :group:
+    :group: Pantry Item
   - :amount: 1 tbsp
     :name: sugar
-    :group:
+    :group: Pantry Item
   :preparation: Mix and pour into chilled glass
   :served: on the rocks; poured over ice
   :drinkware: zombie glass
@@ -2404,28 +2404,28 @@
   :ingredients:
   - :amount: 1 part
     :name: Cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 1 part
     :name: water
-    :group:
+    :group: Pantry Item
   - :amount: to taste
     :name: sugar
-    :group:
+    :group: Pantry Item
   - :amount: 2 peel
     :name: oranges
-    :group:
+    :group: Fruit
   - :amount: 1 peel
     :name: lime
-    :group:
+    :group: Fruit
   - :amount: to taste
     :name: cloves
-    :group:
+    :group: Pantry Item
   - :amount: to taste
     :name: cinnamon
-    :group:
+    :group: Pantry Item
   - :amount: to taste
     :name: ginger
-    :group:
+    :group: Pantry Item
   :preparation: caramelize the sugar with the spices and peels, then add the liquids. Boil for a few minutes then serve hot.
   :served: hot
   :drinkware: mug
@@ -2434,16 +2434,16 @@
   :ingredients:
   - :amount: 2 parts
     :name: Cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 2 parts
     :name: milk
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: 2 parts
     :name: cocoa liqueur
-    :group:
+    :group: Cocoa Liqueur
   - :amount: 1 part
     :name: condensed milk
-    :group:
+    :group: Miscellaneous Beverage
   :preparation: mix the condensed milk and the milk until they blend together. Add cachaça and let it rest. Add cocoa licor when it's ready to serve
   :served: neat; undiluted and without ice
   :drinkware: mug
@@ -2452,22 +2452,22 @@
   :ingredients:
   - :amount: 2 parts (2 oz)
     :name: Cachaça
-    :group:
+    :group: Other liqueur
   - :amount: 1 slice
     :name: orange
-    :group:
+    :group: Fruit
   - :amount: 1 slice
     :name: lemon
-    :group:
+    :group: Fruit
   - :amount: 1 slice
     :name: lime
-    :group:
+    :group: Fruit
   - :amount: 1 part (1 oz)
     :name: guava juice
-    :group:
+    :group: Fruit Juice
   - :amount: 1 tbsp
     :name: sugar
-    :group:
+    :group: Pantry Item
   :preparation: In a mixing glass, mix sugar and fruit slices and press to juice fruit, add ice, guava juice and cachaça, mix again - pour into tall glass.
   :served: on the rocks; poured over ice
   :drinkware: zombie glass
@@ -2488,7 +2488,7 @@
     :group: Fruit Juice
   - :amount: 6 parts
     :name: orange juice
-    :group:
+    :group: Fruit Juice
   :preparation: Shake the vodka and citrus juices in a mixer, then strain into the glass. Slide the grenadine down one side of the glass, where it will sink to the bottom. Slide the curacao down the other side, to lie between the vodka and grenadine, and serve before the layers have a chance to mix.
   :served:
   :drinkware: highball glass
@@ -2497,10 +2497,10 @@
   :ingredients:
   - :amount: 6 parts (60 ml)
     :name: blackstrap rum
-    :group:
+    :group: Rum
   - :amount: 1 part (10 ml)
     :name: Falernum
-    :group:
+    :group: Syrup
   :preparation: Pour the rum and falernum into a glass over ice and stir well. Squeeze in the lime wedge(s) and drop it in.
   :served: on the rocks; poured over ice
   :drinkware: highball glass
@@ -2512,10 +2512,10 @@
     :group: Brandy
   - :amount: 1 part
     :name: apple brandy
-    :group:
+    :group: Brandy
   - :amount: 1 part
     :name: sweet vermouth
-    :group:
+    :group: wine
   :preparation: Stir with ice, strain into a chilled cocktail glass.
   :served: straight up
   :drinkware: cocktail glass
@@ -2542,7 +2542,7 @@
   :ingredients:
   - :amount: 12 cl
     :name: Cola
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: 5 cl
     :name: white rum
     :group: Rum
@@ -2557,7 +2557,7 @@
   :ingredients:
   - :amount: 1 tsp
     :name: sugar
-    :group:
+    :group: Pantry Item
   - :amount: 15 ml
     :name: lime juice
     :group: Fruit Juice
@@ -2566,7 +2566,7 @@
     :group: Fruit Juice
   - :amount: 60 ml
     :name: Havana Club Añejo 7 Años
-    :group:
+    :group: Rum
   :preparation: Dissolve 1 spoon of sugar in 15 ml of lime. Add ice cubes. Add the cranberry juice. Add the Havana Club Añejo 7 Años.
   :served: on the rocks
   :drinkware: long drink glass
@@ -2575,13 +2575,13 @@
   :ingredients:
   - :amount: 1/2 tbsp
     :name: sugar
-    :group:
+    :group: Pantry Item
   - :amount: 2-3 dashses
     :name: lemon juice
     :group: Fruit Juice
   - :amount: 1 oz (3 cl)
     :name: soda water
-    :group:
+    :group: Miscellaneous Beverage
   - :amount: 1 oz (3 cl)
     :name: brandy
     :group: Brandy
@@ -2628,14 +2628,3 @@
   :served: straight up
   :drinkware: cocktail glass
   :garnish: lime slice
-
-
-- :name:
-  :ingredients:
-  - :amount:
-    :name:
-    :group:
-  :preparation:
-  :served:
-  :drinkware:
-  :garnish:
