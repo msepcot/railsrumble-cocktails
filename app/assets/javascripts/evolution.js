@@ -30,12 +30,12 @@ $(function() {
         evolve.evolve();
     });
 
-    $('input:checkbox').change(function() {
-        var checked = this;
-        $('input:checkbox').each( function( index, element ) {
-            if(element === checked) return;
-
-            $(element).attr('checked', false);
-        });
-    });
+    // $('input:checkbox').change(function() {
+//         var checked = this;
+//         $('input:checkbox').each( function( index, element ) {
+//             if(element === checked) return;
+//
+//             $(element).attr('checked', false);
+//         });
+//     });
 });
