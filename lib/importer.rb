@@ -39,15 +39,22 @@ class Importer
 
     def associate_ingredients(cocktail, ingredients)
       ingredients.each do |ingredient|
-        i = find_or_create_ingredient(ingredient[:name])
+        i = find_or_create_ingredient(ingredient[:name], ingredient[:group])
         Recipe.create(cocktail: cocktail, ingredient: i, measurement: ingredient[:amount])
       end
     end
 
-    def find_or_create_ingredient(name)
+    def find_or_create_ingredient(name, group_name)
       ingredient = Ingredient.where("LOWER(name)=LOWER(?)", name).first
       return ingredient unless ingredient.nil?
-      Ingredient.create(name: name)
+      Ingredient.create(name: name, group: find_or_create_group(group_name))
+    end
+
+    def find_or_create_group(name)
+      return nil unless name
+      group = Group.where("LOWER(name)=LOWER(?)", name).first
+      return group unless group.nil?
+      Group.create(name: name)
     end
   end
 end
