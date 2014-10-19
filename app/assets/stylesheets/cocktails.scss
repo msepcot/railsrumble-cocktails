@@ -46,7 +46,7 @@ footer {
 }
 
 #evolution {
-   background-image: image-url('evolution-greyscale.png');
+   background-image: image-url('evolution-greyscale.jpg');
    display: block;
    height: 888px;
    width: 573px;
@@ -55,12 +55,12 @@ footer {
    left: 0px;
 
   &:hover {
-    background-image: image-url("evolution-color.png");
+    background-image: image-url("evolution-color.jpg");
   }
 }
 
 #intelligent-design {
-   background-image: image-url("intelligent-design-greyscale.png");
+   background-image: image-url("intelligent-design-greyscale.jpg");
    display: block;
    height: 888px;
    width: 573px;
@@ -69,6 +69,6 @@ footer {
    left: 573px;
 
    &:hover {
-     background-image: image-url("intelligent-design-color.png");
+     background-image: image-url("intelligent-design-color.jpg");
   }
 }

@@ -26,6 +26,8 @@ IntelligentDesign.prototype.concoct = function () {
     $alert.children('p').text(errorThrown.message);
     $alert.removeClass('hidden');
 
+    $('html, body').animate({ scrollTop: 0 });
+
     throw new Error(errorThrown);
   };
 
