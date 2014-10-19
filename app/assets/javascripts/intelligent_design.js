@@ -24,6 +24,16 @@ IntelligentDesign.prototype.showDrinks = function (drinks) {
   $('.drink').on('click', function (event) {
     $(event.target).next('.drink-info').slideToggle('fast');
   });
+
+  $('#again').on('click', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: 0
+    }, function () {
+      $('input[type="checkbox"]').attr('checked', false);
+    });
+  });
 };
 
 $(function () {
