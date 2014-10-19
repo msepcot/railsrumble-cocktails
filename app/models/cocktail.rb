@@ -38,8 +38,9 @@ class Cocktail < ActiveRecord::Base
       evolved = []
       Cocktail.all.each do |candidate|
         in_common = (candidate.ingredient_id_array & ingredient_ids).size
+        not_same = !(ingredient_ids.size.eql?(in_common))
         passes_min_in_common = in_common >= MIN_EVOLUTION_INGREDIENTS_IN_COMMON
-        if passes_min_in_common && candidate.id != from_cocktail_id
+        if passes_min_in_common && not_same && candidate.id != from_cocktail_id
           evolved << { cocktail: candidate, in_common: in_common, num_ingredients: candidate.ingredient_id_array.size }
         end
       end
@@ -53,11 +54,13 @@ class Cocktail < ActiveRecord::Base
       get_random(evolved_cocktails, selected)
     end
 
+    # Gets max in common with min number of new ingredients
     def get_max_in_common(evolved_cocktails)
-      sorted = evolved_cocktails.sort_by { |hsh| hsh[:in_common] }.reverse
+      sorted = evolved_cocktails.sort { |a, b| [b[:in_common], a[:num_ingredients]] <=> [a[:in_common], b[:num_ingredients]] }
       [sorted.first[:cocktail]].compact
     end
 
+    # Gets another cocktail with a minimal amount of new ingedients
     def get_min_additional(evolved_cocktails, selected)
       sorted = evolved_cocktails.sort_by { |hsh| hsh[:num_ingredients] }
       if selected.index(sorted.first[:cocktail]).nil?
@@ -68,6 +71,7 @@ class Cocktail < ActiveRecord::Base
       selected
     end
 
+    # Gets a random cocktail from the candidate list
     def get_random(evolved_cocktails, selected)
       return selected if evolved_cocktails.size <= selected.size
       while true
