@@ -13,10 +13,18 @@ class Cocktail < ActiveRecord::Base
 
   before_save :set_ingredient_id_array
 
+  MIN_EVOLUTION_INGREDIENTS_IN_COMMON = 1
+  MAX_ADDITIONAL_INGREDIENTS = 4
+
   class << self
     def requiring(ingredient_ids)
       return nil if ingredient_ids.blank?
       filter_cocktails(ingredient_ids)
+    end
+
+    def evolve(ingredient_ids)
+      return nil if ingredient_ids.blank?
+      evolve_cocktails(ingredient_ids)
     end
 
   private
@@ -29,6 +37,54 @@ class Cocktail < ActiveRecord::Base
       end
       filtered
     end
+
+    def evolve_cocktails(ingredient_ids)
+      evolved = []
+      Cocktail.all.each do |candidate|
+        in_common = (candidate.ingredient_id_array & ingredient_ids).size
+        passes_min_in_common = in_common >= MIN_EVOLUTION_INGREDIENTS_IN_COMMON
+        passes_max_additional = (ingredient_ids.size - candidate.ingredient_id_array.size) <= MAX_ADDITIONAL_INGREDIENTS
+        if passes_min_in_common && passes_max_additional
+          evolved << { cocktail: candidate, in_common: in_common, num_ingredients: candidate.ingredient_id_array.size }
+        end
+      end
+      puts evolved.inspect
+      select_evolved_cocktails(evolved)
+    end
+
+    def select_evolved_cocktails(evolved_cocktails)
+      return evolved_cocktails.map{ |hsh| hsh[:cocktail] } if evolved_cocktails.size <= 3
+      selected = get_max_in_common(evolved_cocktails)
+      selected = get_max_additional(evolved_cocktails, selected)
+      get_random(evolved_cocktails, selected)
+    end
+
+    def get_max_in_common(evolved_cocktails)
+      sorted = evolved_cocktails.sort_by { |hsh| hsh[:in_common] }
+      [sorted.first[:cocktail]]
+    end
+
+    def get_max_additional(evolved_cocktails, selected)
+      sorted = evolved_cocktails.sort_by { |hsh| hsh[:num_ingredients] }
+      if selected.index(sorted.first[:cocktail]).nil?
+        selected << sorted.first[:cocktail]
+      else
+        selected << sorted.second[:cocktail]
+      end
+      selected
+    end
+
+    def get_random(evolved_cocktails, selected)
+      return selected if evolved_cocktails.size <= selected.size
+      while true
+        sampled = evolved_cocktails.sample
+        if selected.index(sampled[:cocktail]).nil?
+          selected << sampled[:cocktail]
+          return selected
+        end
+      end
+    end
+
   end
 
 private
