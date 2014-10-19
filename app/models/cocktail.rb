@@ -38,7 +38,7 @@ class Cocktail < ActiveRecord::Base
       evolved = []
       Cocktail.all.each do |candidate|
         in_common = (candidate.ingredient_id_array & ingredient_ids).size
-        not_same = !(ingredient_ids.size.eql?(in_common))
+        not_same = !(candidate.ingredient_id_array.size.eql?(in_common))
         passes_min_in_common = in_common >= MIN_EVOLUTION_INGREDIENTS_IN_COMMON
         if passes_min_in_common && not_same && candidate.id != from_cocktail_id
           evolved << { cocktail: candidate, in_common: in_common, num_ingredients: candidate.ingredient_id_array.size }
