@@ -44,3 +44,31 @@ footer {
     text-decoration: underline;
   }
 }
+
+#evolution {
+   background-image: image-url('evolution-greyscale.png');
+   display: block;
+   height: 888px;
+   width: 573px;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+
+  &:hover {
+    background-image: image-url("evolution-color.png");
+  }
+}
+
+#intelligent-design {
+   background-image: image-url("intelligent-design-greyscale.png");
+   display: block;
+   height: 888px;
+   width: 573px;
+   position: absolute;
+   top: 0px;
+   left: 573px;
+
+   &:hover {
+     background-image: image-url("intelligent-design-color.png");
+  }
+}
