@@ -63,7 +63,7 @@ IntelligentDesign.prototype.showDrinks = function (drinks) {
   });
 };
 
-$(function () {
+$(document).on('ready page:load', function () {
   var iDesign = new IntelligentDesign();
 
   $('.group').on('click', function (event) {
