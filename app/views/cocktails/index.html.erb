@@ -1,14 +1,67 @@
-<!-- Columns are always 50% wide, on mobile and desktop -->
-<div class="row">
-  <div class="col-xs-6">
-    <p class="text-center">
-      <a href="evolution">Evolution</a>
-    </p>
-  </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cocktails</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <div class="col-xs-6">
-    <p class="text-center">
-      <a href="godmode">Intelligent Design</a>
-    </p>
-  </div>
-</div>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Serif -->
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+    <!-- Sans-Serif -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,800,400' rel='stylesheet' type='text/css'>
+
+    <style>
+      #evolution {
+         background-image: url('<%= asset_path('evolution-greyscale.png') %>');
+         display: block;
+         height: 888px;
+         width: 573px;
+         position: absolute;
+         top: 0px;
+         left: 0px;
+      }
+
+      #evolution:hover {
+         background-image: url('<%= asset_path('evolution-color.png') %>');
+      }
+
+      #intelligent-design {
+         background-image: url('<%= asset_path('intelligent-design-greyscale.png') %>');
+         display: block;
+         height: 888px;
+         width: 573px;
+         position: absolute;
+         top: 0px;
+         left: 573px;
+      }
+
+      #intelligent-design:hover {
+         background-image: url('<%= asset_path('intelligent-design-color.png') %>');
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="main container">
+      <!-- Columns are always 50% wide, on mobile and desktop -->
+      <div class="row" style="position: relative; white-space: nowrap;">
+        <%= link_to '', evolution_path, id: 'evolution' %><%= link_to '', godmode_path, id: 'intelligent-design' %>
+        <%= image_tag 'cocktails-circled.png', style: 'position: absolute; top: 319px; left: 448px;' %>
+      </div>
+    </div>
+  </body>
+</html>
