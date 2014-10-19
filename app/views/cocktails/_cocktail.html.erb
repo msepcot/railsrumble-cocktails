@@ -7,11 +7,17 @@
     <% end %>
   </ul>
 
-<h3>Barware</h3>
+<% if cocktail.drinkware %>
+<h3>Drinkware</h3>
 <p>Serve in a <%= cocktail.drinkware.name %></p>
+<% end %>
 
+<% if cocktail.garnish %>
 <h3>Garnish</h3>
 <p><%= cocktail.garnish %></p>
+<% end %>
 
+<% if cocktail.instructions %>
 <h3>Instructions</h3>
 <p><%= cocktail.instructions %></p>
+<% end %>

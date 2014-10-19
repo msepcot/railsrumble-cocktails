@@ -1544,8 +1544,8 @@
     :name: lemon juice
   - :amount: 5 parts
     :name: cola
-  :preparation:
-  :served:
+  :preparation: Build in a highball glass.
+  :served: On ice
   :drinkware: highball glass
   :garnish:
 - :name: Carrot Cake
@@ -1556,8 +1556,8 @@
     :name: Hot Damn Cinnamon Schnapps
   - :amount: 1 part
     :name: Frangelico
-  :preparation:
-  :served:
+  :preparation: Combine in a shot glass
+  :served: neat
   :drinkware: shot glass
   :garnish:
 - :name: Champagne cocktail
@@ -1652,7 +1652,7 @@
     :name: coffee liqueur
   - :amount: 1 part
     :name: carpano
-  :preparation:
+  :preparation:  Shake ingredients together with ice, and strain into a glass.
   :served: straight up
   :drinkware: cocktail glass
   :garnish:
@@ -1866,7 +1866,7 @@
     :name: white Crème de menthe
   :preparation: Shake ingredients together with ice, and strain into a glass.
   :served: straight up
-  :drinkware:
+  :drinkware: cocktail glass
   :garnish:
 - :name: Wolfram
   :ingredients:
@@ -1878,7 +1878,7 @@
     :name: dry vermouth
   - :amount: 1 part
     :name: lemon juice
-  :preparation:
+  :preparation: Shake ingredients together with ice, and strain into a glass.
   :served: straight up
   :drinkware: cocktail glass
   :garnish:
@@ -2035,7 +2035,7 @@
   - :amount: 60 ml
     :name: Havana Club Añejo 7 Años
   :preparation: Dissolve 1 spoon of sugar in 15 ml of lime. Add ice cubes. Add the cranberry juice. Add the Havana Club Añejo 7 Años.
-  :served:
+  :served: on the rocks
   :drinkware: long drink glass
   :garnish:
 - :name: Curacao Punch
@@ -2053,6 +2053,6 @@
   - :amount: 1 oz (3 cl)
     :name: Jamaican rum
   :preparation: In a bar glass or goblet, combine the sugar, lemon juice, and soda water. Dissolve the sugar, and fill a glass with finely shaved or thoroughly crushed ice. Add the remaining ingredients.
-  :served:
-  :drinkware:
+  :served: on the rocks
+  :drinkware: long drink glass
   :garnish: variety of fruits

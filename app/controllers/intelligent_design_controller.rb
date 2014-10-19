@@ -5,7 +5,7 @@ class IntelligentDesignController < ApplicationController
   end
 
   def concoct
-    drinks = Cocktail.requiring(params[:ingredients])
+    drinks = Cocktail.requiring(params[:ingredients].map(&:to_i))
     ing_ids = params[:ingredients] unless params[:ingredients].blank?
     current_or_guest_user.ingredients = Ingredient.find(ing_ids)
     render json: {

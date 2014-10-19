@@ -4,23 +4,28 @@ class Importer
     def import(filepath)
       to_import = YAML.load_file(filepath)
       to_import.each do |importing|
-        next unless Cocktail.where(name: importing[:name]).first.nil?
+        next unless Cocktail.where("LOWER(name)=LOWER(?)", importing[:name]).first.nil?
 
-        c = Cocktail.create(name: importing[:name],
+        c = Cocktail.new(name: importing[:name],
           instructions: importing[:preparation],
           served: importing[:served],
           drinkware: find_or_create_drinkware(importing[:drinkware]),
           garnish: importing[:garnish]
         )
 
+        next unless c.valid?
+        c.save
+
         associate_ingredients(c, importing[:ingredients])
+
       end
+      Cocktail.all.each {|c| c.save}
     end
 
   private
 
     def find_or_create_drinkware(name)
-      drinkware = Drinkware.where(name: name).first
+      drinkware = Drinkware.where("LOWER(name)=LOWER(?)", name).first
       return drinkware unless drinkware.nil?
       Drinkware.create(name: name)
     end
@@ -33,7 +38,7 @@ class Importer
     end
 
     def find_or_create_ingredient(name)
-      ingredient = Ingredient.where(name: name).first
+      ingredient = Ingredient.where("LOWER(name)=LOWER(?)", name).first
       return ingredient unless ingredient.nil?
       Ingredient.create(name: name)
     end
